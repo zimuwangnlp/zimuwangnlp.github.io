@@ -6,6 +6,22 @@
   - firstname: ["Xinya"]
     url: https://xinyadu.github.io/
 
+"gan":
+  - firstname: ["Hong-Seng"]
+    url: https://scholar.xjtlu.edu.cn/en/persons/HongSengGan
+
+"li":
+  - firstname: ["Juanzi"]
+    url: https://keg.cs.tsinghua.edu.cn/persons/ljz/
+
+"liu":
+  - firstname: ["Zhiyuan"]
+    url: https://nlp.csai.tsinghua.edu.cn/~lzy/
+
+"maimaiti":
+  - firstname: ["Mieradilijiang"]
+    url: https://www.miradeljan.com/
+
 "na":
   - firstname: ["Hongbin"]
     url: https://hongbin-ze.github.io/
@@ -15,13 +31,19 @@
     url: https://cgi.csc.liv.ac.uk/~anguyen/
 
 "su":
-  - firstname: ["jionglong"]
+  - firstname: ["Jionglong"]
     url: https://scholar.xjtlu.edu.cn/en/persons/JionglongSu
 
 "wang":
-  - firstname: ["Wei"]
-    url: https://scholar.xjtlu.edu.cn/en/persons/WeiWang03
-  
   - firstname: ["Qiufeng"]
     url: https://scholar.xjtlu.edu.cn/en/persons/QiufengWang
 
+  - firstname: ["Wei"]
+    url: https://scholar.xjtlu.edu.cn/en/persons/WeiWang03
+  
+  - firstname: ["Xiaozhi"]
+    url: https://bakser.github.io/
+
+"yao":
+  - firstname: ["Feng"]
+    url: https://yaof20.github.io/
