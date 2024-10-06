@@ -1,3 +1,7 @@
+"chen":
+  - firstname: ["Qi"]
+    url: https://scholar.xjtlu.edu.cn/en/persons/QiChen02
+
 "du":
   - firstname: ["Xinya"]
     url: https://xinyadu.github.io/
@@ -5,3 +9,19 @@
 "na":
   - firstname: ["Hongbin"]
     url: https://hongbin-ze.github.io/
+
+"nguyen":
+  - firstname: ["Anh"]
+    url: https://cgi.csc.liv.ac.uk/~anguyen/
+
+"su":
+  - firstname: ["jionglong"]
+    url: https://scholar.xjtlu.edu.cn/en/persons/JionglongSu
+
+"wang":
+  - firstname: ["Wei"]
+    url: https://scholar.xjtlu.edu.cn/en/persons/WeiWang03
+  
+  - firstname: ["Qiufeng"]
+    url: https://scholar.xjtlu.edu.cn/en/persons/QiufengWang
+
