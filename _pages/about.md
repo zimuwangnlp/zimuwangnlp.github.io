@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Ph.D. student at <a href='https://www.xjtlu.edu.cn/en/'>Xi'an Jiaotong-Liverpool University</a>/<a href='https://www.liverpool.ac.uk/'>University of Liverpool</a>.
 
 profile:
   align: right
@@ -10,8 +10,8 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Xi'an Jiaotong-Liverpool University</p>
-    <p>111 Ren'ai Road, Suzhou Industrial Park</p>
-    <p>Suzhou, Jiangsu 215123, China</p>
+    <p>111 Ren'ai Road, SIP</p>
+    <p>Suzhou, Jiangsu, China</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
