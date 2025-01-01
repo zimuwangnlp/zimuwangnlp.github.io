@@ -5,9 +5,11 @@
   abbr={AAAI 2025},
   title={Template-Driven LLM-Paraphrased Framework for Tabular Math Word Problem Generation},
   author={Kang*, Xiaoqiang and Wang*, Zimu and Jin, Xiaobo and Wang, Wei and Huang, Kaizhu and Wang†, Qiufeng},
+  abstract={Solving tabular math word problems (TMWPs) has become a critical role in evaluating the mathematical reasoning ability of large language models (LLMs), where large-scale TMWP samples are commonly required for LLM fine-tuning. Since the collection of high-quality TMWP datasets is costly and time-consuming, recent research has concentrated on automatic TMWP generation. However, current generated samples usually suffer from issues of either correctness or diversity. In this paper, we propose a Template-driven LLM-paraphrased (TeLL) framework for generating high-quality TMWP samples with diverse backgrounds and accurate tables, questions, answers, and solutions. To this end, we first extract templates from existing real samples to generate initial problems, ensuring correctness. Then, we adopt an LLM to extend templates and paraphrase problems, obtaining diverse TMWP samples. Furthermore, we find the reasoning annotation is important for solving TMWPs. Therefore, we propose to enrich each solution with illustrative reasoning steps. Through the proposed framework, we construct a high-quality dataset TabMWP-TeLL by adhering to the question types in the TabMWP dataset, and we conduct extensive experiments on a variety of LLMs to demonstrate the effectiveness of TabMWP-TeLL in improving TMWP solving performance. The code and data of this paper are available at: https://github.com/Jason8Kang/TELL.},
   journal={The 39th Annual AAAI Conference on Artificial Intelligence (AAAI 2025)},
   year={2025},
   month={February},
+  arxiv={2412.15594},
   selected={true}
 }
 
@@ -15,9 +17,11 @@
   abbr={COLING 2025},
   title={Detecting Conversational Mental Manipulation with Intent-Aware Prompting},
   author={Ma*, Jiayuan and Na*, Hongbin and Wang, Zimu and Hua, Yining and Liu, Yue and Wang, Wei and Chen, Ling},
+  abstract={Mental manipulation severely undermines mental wellness by covertly and negatively distorting decision-making. While there is an increasing interest in mental health care within the natural language processing community, progress in tackling manipulation remains limited due to the complexity of detecting subtle, covert tactics in conversations. In this paper, we propose Intent-Aware Prompting (IAP), a novel approach for detecting mental manipulations using large language models (LLMs), providing a deeper understanding of manipulative tactics by capturing the underlying intents of participants. Experimental results on the MentalManip dataset demonstrate superior effectiveness of IAP against other advanced prompting strategies. Notably, our approach substantially reduces false negatives, helping detect more instances of mental manipulation with minimal misjudgment of positive cases. The code of this paper is available at https://github.com/Anton-Jiayuan-MA/Manip-IAP.},
   journal={The 31st International Conference on Computational Linguistics (COLING 2025)},
   year={2025},
   month={January},
+  arxiv={2412.08414},
   selected={true}
 }
 
@@ -25,6 +29,7 @@
   abbr={NeurIPS 2024},
   title={MEQA: A Benchmark for Multi-hop Event-centric Question Answering with Explanations},
   author={Li, Ruosen and Wang, Zimu and Tran, Son Quoc and Xia, Lei and Du, Xinya},
+  abstract={Existing benchmarks for multi-hop question answering (QA) primarily evaluate models based on their ability to reason about entities and the relationships between them. However, there's a lack of insight into how these models perform in terms of both events and entities. In this paper, we introduce a novel semi-automatic question generation strategy by composing event structures from information extraction (IE) datasets and present the first Multi-hop Event-centric Question Answering (MEQA) benchmark. It contains (1) 2,243 challenging questions that require a diverse range of complex reasoning over entity-entity, entity-event, and event-event relations; (2) corresponding multi-step QA-format event reasoning chain (explanation) which leads to the answer for each question. We also introduce two metrics for evaluating explanations: completeness and logical consistency. We conduct comprehensive benchmarking and analysis, which shows that MEQA is challenging for the latest state-of-the-art models encompassing large language models (LLMs); and how they fall short of providing faithful explanations of the event-centric reasoning process.},
   journal={The 38th Annual Conference on Neural Information Processing Systems (NeurIPS 2024)},
   year={2024},
   month={December},
@@ -35,6 +40,7 @@
   abbr={PACLIC 2024},
   title={Domain-specific Guided Summarization for Mental Health Posts},
   author={Qian, Lu and Wang, Yuqi and Wang, Zimu and Zhang, Haiyang and Wang†, Wei and Yu, Ting and Nguyen, Anh},
+  abstract={In domain-specific contexts, particularly mental health, abstractive summarization requires advanced techniques adept at handling specialized content to generate domain-relevant and faithful summaries. In response to this, we introduce a guided summarizer equipped with a dual-encoder and an adapted decoder that utilizes novel domain-specific guidance signals, i.e., mental health terminologies and contextually rich sentences from the source document, to enhance its capacity to align closely with the content and context of guidance, thereby generating a domain-relevant summary. Additionally, we present a post-editing correction model to rectify errors in the generated summary, thus enhancing its consistency with the original content in detail. Evaluation on the MentSum dataset reveals that our model outperforms existing baseline models in terms of both ROUGE and FactCC scores. Although the experiments are specifically designed for mental health posts, the methodology we've developed offers broad applicability, highlighting its versatility and effectiveness in producing high-quality domain-specific summaries.},
   journal={The 38th Pacific Asia Conference on Language, Information and Computation (PACLIC 2024)},
   year={2024},
   month={December},
@@ -48,22 +54,26 @@
   abstract={Identifying offensive language is essential for maintaining safety and sustainability in the social media era. Though large language models (LLMs) have demonstrated encouraging potential in social media analytics, they lack thorough evaluation when in offensive language detection, particularly in multilingual environments. We for the first time evaluate multilingual offensive language detection of LLMs in three languages: English, Spanish, and German with three LLMs, GPT-3.5, Flan-T5, and Mistral, in both monolingual and multilingual settings. We further examine the impact of different prompt languages and augmented translation data for the task in non-English contexts. Furthermore, we discuss the impact of the inherent bias in LLMs and the datasets in the mispredictions related to sensitive topics.},
   journal={2024 IEEE 21st International Conference on Ubiquitous Intelligence and Computing (UIC 2024)},
   year={2024},
-  month={December}
+  month={December},
+  arxiv={2410.15623}
 }
 
 @article{UIC2024Audio,
   abbr={UIC 2024},
   title={Language-based Audio Retrieval with Co-Attention Networks},
   author={Sun, Haoran and Wang, Zimu and Chen, Qiuyi and Chen, Jianjun and Wang, Jia and Zhang†, Haiyang},
+  abstract={In recent years, user-generated audio content has proliferated across various media platforms, creating a growing need for efficient retrieval methods that allow users to search for audio clips using natural language queries. This task, known as language-based audio retrieval, presents significant challenges due to the complexity of learning semantic representations from heterogeneous data across both text and audio modalities. In this work, we introduce a novel framework for the language-based audio retrieval task that leverages co-attention mechanismto jointly learn meaningful representations from both modalities. To enhance the model's ability to capture fine-grained cross-modal interactions, we propose a cascaded co-attention architecture, where co-attention modules are stacked or iterated to progressively refine the semantic alignment between text and audio. Experiments conducted on two public datasets show that the proposed method can achieve better performance than the state-of-the-art method. Specifically, our best performed co-attention model achieves a 16.6% improvement in mean Average Precision on Clotho dataset, and a 15.1% improvement on AudioCaps.},
   journal={2024 IEEE 21st International Conference on Ubiquitous Intelligence and Computing (UIC 2024)},
   year={2024},
-  month={December}
+  month={December},
+  arxiv={2412.20914}
 }
 
 @article{ICONIP2024MonoTCM,
   abbr={ICONIP 2024},
   title={MonoTCM: Semantic-Depth Fusion Transformer for Monocular 3D Object Detection with Token Clustering and Merging},
   author={Zeng, Changyu and Wang, Zimu and Xiao, Jimin and Nguyen, Anh and Huang, Kaizhu and Wang†, Wei and Yue†, Yutao},
+  abstract={Monocular 3D object detection presents significant challenges due to the inherent absence of depth and geometric information, rendering it more complex than 2D detection. This paper introduces MonoTCM, a Semantic-Depth Fusion Transformer that leverages a Token Clustering and Merging (TCM) module to enhance the efficiency and accuracy of monocular 3D object detection. The TCM module aggregates multi-scale grid-based tokens into clustering-based tokens, dynamically adjusting their shapes and sizes based on local density and distance metrics. This allows for finer granularity in critical areas while consolidating less informative regions. The aggregated tokens are subsequently decomposed into semantic and depth features, processed through dedicated transformer-based encoders, and integrated using a semantic-depth fusion decoder modeled after DETR. This approach enhances the model's ability to capture implicit global geometric information and provides a cost-effective solution for real-time intelligent driving applications. Experimental results demonstrate the superiority of MonoTCM in enhancing detection performance compared to other advanced methods, highlighting its potential to advance the field of monocular 3D object detection.},
   journal={The 31st International Conference on Neural Information Processing (ICONIP 2024)},
   year={2024},
   month={December}
@@ -73,9 +83,13 @@
   abbr={EMNLP 2024},
   title={Document-level Causal Relation Extraction with Knowledge-guided Binary Question Answering},
   author={Wang, Zimu and Xia, Lei and Wang, Wei and Du, Xinya},
+  abstract={As an essential task in information extraction (IE), Event-Event Causal Relation Extraction (ECRE) aims to identify and classify the causal relationships between event mentions in natural language texts. However, existing research on ECRE has highlighted two critical challenges, including the lack of document-level modeling and causal hallucinations. In this paper, we propose a Knowledge-guided binary Question Answering (KnowQA) method with event structures for ECRE, consisting of two stages: Event Structure Construction and Binary Question Answering. We conduct extensive experiments under both zero-shot and fine-tuning settings with large language models (LLMs) on the MECI and MAVEN-ERE datasets. Experimental results demonstrate the usefulness of event structures on document-level ECRE and the effectiveness of KnowQA by achieving state-of-the-art on the MECI dataset. We observe not only the effectiveness but also the high generalizability and low inconsistency of our method, particularly when with complete event structures after fine-tuning the models.},
   journal={Findings of the Association for Computational Linguistics: EMNLP 2024 (EMNLP 2024 Findings)},
   year={2024},
   month={November},
+  html={https://aclanthology.org/2024.findings-emnlp.986/},
+  pdf={https://aclanthology.org/2024.findings-emnlp.986.pdf},
+  arxiv={2410.04752},
   selected={true}
 }
 
@@ -92,7 +106,7 @@
 }
 
 @article{WASSA2024Emotion,
-  abbr={WASSA 2024},
+  abbr={WS 2024},
   title={Knowledge Distillation from Monolingual to Multilingual Models for Intelligent and Interpretable Multilingual Emotion Detection},
   author={Wang, Yuqi and Wang, Zimu and Han, Nijia and Wang†, Wei and Chen, Qi and Zhang, Haiyang and Pan, Yushan and Nguyen, Anh},
   abstract={Emotion detection from text is a crucial task in understanding natural language with wide-ranging applications. Existing approaches for multilingual emotion detection from text face challenges with data scarcity across many languages and a lack of interpretability. We propose a novel method that leverages both monolingual and multilingual pre-trained language models to improve performance and interpretability. Our approach involves 1) training a high-performing English monolingual model in parallel with a multilingual model and 2) using knowledge distillation to transfer the emotion detection capabilities from the monolingual teacher to the multilingual student model. Experiments on a multilingual dataset demonstrate significant performance gains for refined multilingual models like XLM-RoBERTa and E5 after distillation. Furthermore, our approach enhances interpretability by enabling better identification of emotion-trigger words. Our work presents a promising direction for building accurate, robust and explainable multilingual emotion detection systems.},
@@ -104,18 +118,21 @@
 }
 
 @article{LKM2024RE,
-  abbr={LKM 2024},
+  abbr={WS 2024},
   title={Knowledge Base-enhanced Multilingual Relation Extraction with Large Language Models},
   author={Chen, Tong and Sen, Procheta and Wang, Zimu and Jiang†, Zhengyong and Su†, Jionglong},
+  abstract={Relation Extraction (RE) is an essential task that involves comprehending relational facts between entities from natural language texts. However, existing research in RE, particularly those based on large language models (LLMs), is proven to fall short in the task due to their context unawareness (lack of fine-grained understanding), schema misalignment (misaligned with human-defined schema), and world knowledge ignorance (relying solely on internal parametric knowledge). In this paper, we propose a novel framework to address the aforementioned challenges. The framework consists of two stages, including 1) entity linking and 2) relation inference, by fully leveraging the efficacy of external knowledge bases (KBs) and LLMs in this task. We conduct extensive experiments in a multilingual setting and achieve state-of-the-art performance on the experimented datasets. The LLMs with external knowledge can typically outperform those without knowledge by a significant margin, indicating the effectiveness of our proposed framework.},
   journal={The First International OpenKG Workshop on Large Knowledge-Enhanced Models (LKM@IJCAI 2024)},
   year={2024},
-  month={August}
+  month={August},
+  pdf={https://ceur-ws.org/Vol-3818/paper4.pdf}
 }
 
 @article{CCL2024Commonsense,
   abbr={CCL 2024},
   title={System Report for CCL24-Eval Task 8: Exploring Faithful and Informative Commonsense Reasoning and Moral Understanding in Children's Stories},
   author={Wang, Zimu and Wang, Yuqi and Han, Nijia and Chen, Qi and Zhang, Haiyang and Pan, Yushan and Wang, Qiufeng and Wang†, Wei},
+  abstract={Commonsense reasoning and moral understanding are crucial tasks in artificial intelligence (AI) and natural language processing (NLP). However, existing research often falls short in terms of faithfulness and informativeness during the reasoning process. We propose a novel framework for performing commonsense reasoning and moral understanding using large language models (LLMs), involving constructing guided prompts by incorporating relevant knowledge for commonsense reasoning and extracting facts from stories for moral understanding. We conduct extensive experiments on the Commonsense Reasoning and Moral Understanding in Children's Stories (CRMUS) dataset with widely recognised LLMs under both zero-shot and fine-tuning settings, demonstrating the effectiveness of our proposed method. Furthermore, we analyse the adaptability of different LLMs in extracting facts for moral understanding performance.},
   journal={The 23rd China National Conference on Computational Linguistics: Evaluations (CCL24-Eval)},
   year={2024},
   month={July}
@@ -146,8 +163,8 @@
   selected={true}
 }
 
-@article{arXiv2024DDM,
-  abbr={arXiv 2024},
+@article{Preprint2024DDM,
+  abbr={Preprint 2024},
   title={Rethinking Human-like Translation Strategy: Integrating Drift-Diffusion Model with Large Language Models for Machine Translation},
   author={Na, Hongbin and Wang, Zimu and Maimaiti†, Mieradilijiang and Chen, Tong and Wang, Wei and Shen, Tao and Chen, Ling},
   abstract={Large language models (LLMs) have demonstrated promising potential in various downstream tasks, including machine translation. However, prior work on LLM-based machine translation has mainly focused on better utilizing training data, demonstrations, or pre-defined and universal knowledge to improve performance, with a lack of consideration of decision-making like human translators. In this paper, we incorporate Thinker with the Drift-Diffusion Model (Thinker-DDM) to address this issue. We then redefine the Drift-Diffusion process to emulate human translators’ dynamic decision-making under constrained resources. We conduct extensive experiments under the high-resource, low-resource, and commonsense translation settings using the WMT22 and CommonMT datasets, in which Thinker-DDM outperforms baselines in the first two scenarios. We also perform additional analysis and evaluation on commonsense translation to illustrate the high effectiveness and efficacy of the proposed method.},
@@ -182,8 +199,8 @@
   html={https://ieeexplore.ieee.org/document/10431887}
 }
 
-@article{arXiv2023ICL,
-  abbr={arXiv 2023},
+@article{Preprint2023ICL,
+  abbr={Preprint 2023},
   title={When does In-context Learning Fall Short and Why? A Study on Specification-Heavy Tasks},
   author={Peng*, Hao and Wang*, Xiaozhi and Chen*, Jianhui and Li, Weikai and Qi, Yunjia and Wang, Zimu and Wu, Zhili and Zeng, Kaisheng and Xu, Bin and Hou, Lei and Li, Juanzi},
   abstract={In-context learning (ICL) has become the default method for using large language models (LLMs), making the exploration of its limitations and understanding the underlying causes crucial. In this paper, we find that ICL falls short of handling specification-heavy tasks, which are tasks with complicated and extensive task specifications, requiring several hours for ordinary humans to master, such as traditional information extraction tasks. The performance of ICL on these tasks mostly cannot reach half of the state-of-the-art results. To explore the reasons behind this failure, we conduct comprehensive experiments on 18 specification-heavy tasks with various LLMs and identify three primary reasons: inability to specifically understand context, misalignment in task schema comprehension with humans, and inadequate long-text understanding ability. Furthermore, we demonstrate that through fine-tuning, LLMs can achieve decent performance on these tasks, indicating that the failure of ICL is not an inherent flaw of LLMs, but rather a drawback of existing alignment methods that renders LLMs incapable of handling complicated specification-heavy tasks via ICL. To substantiate this, we perform dedicated instruction tuning on LLMs for these tasks and observe a notable improvement. We hope the analyses in this paper could facilitate advancements in alignment methods enabling LLMs to meet more sophisticated human demands.},
