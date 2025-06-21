@@ -6,13 +6,17 @@ nav: true
 nav_order: 4
 ---
 
-### PhD Student Mentorship
+**PhD Student Mentorship:**
 
 - **Xinyi Zeng** (2024-Present, PhD Student @ UoL)
 
   Publications: CSCWD 2025
 
-### Master's Students
+**Master's Students:**
+
+- [**Tianshi Cai**] (2024-Present, MRes Student @ UoL)
+
+- [**Guanxu Li**] (2024-Present, MRes Student @ UoL)
 
 - [**Jiayuan Ma**](https://anton-jiayuan-ma.github.io/) (2024-Present, MSc Student @ USYD)
     
@@ -22,11 +26,11 @@ nav_order: 4
 
   Publications: [COLING 2025](https://aclanthology.org/2025.coling-main.616.pdf)
 
-- **Nijia Han** (2024-Present, MSc Student @ UoL → PhD Student @ UoL)
+- **Nijia Han** (2024-2025, MSc Student @ UoL → PhD Student @ UoL)
 
   Publications: [CCL 2024-Eval](https://aclanthology.org/2024.ccl-3.37.pdf), [WASSA@ACL 2024](https://aclanthology.org/2024.wassa-1.45.pdf), [INLG 2024 Demo](https://aclanthology.org/2024.inlg-demos.2.pdf)
 
-### Undergraduate Students
+**Undergraduate Students:**
 
 - **Fuyu Xing** (2024-Present, BSc Student @ XJTLU → MSc Student @ CMU)
 
