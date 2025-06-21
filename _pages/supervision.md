@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /supervision/
-title: Supervision & Mentorship
+title: Supervision
 nav: true
 nav_order: 4
 
