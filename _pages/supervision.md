@@ -31,8 +31,8 @@ nav_order: 4
 
 - **Lilin Wang** (2023-Present, BEng Student @ XJTLU → MEng Student @ UPenn)
 
-  Publications: [BIBE 2023](https://ieeexplore.ieee.org/document/10431887), UIC 2024, ACL 2025 Findings
+  Publications: [BIBE 2023](https://ieeexplore.ieee.org/document/10431887/), UIC 2024, ACL 2025 Findings
 
 - **Jianfei He** (2023-Present, BEng Student @ XJTLU → MSc Student @ HKUST)
 
-  Publications: [BIBE 2023](https://ieeexplore.ieee.org/document/10431887), UIC 2024
+  Publications: [BIBE 2023](https://ieeexplore.ieee.org/document/10431887/), UIC 2024
