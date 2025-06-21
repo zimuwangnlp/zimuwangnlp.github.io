@@ -6,13 +6,13 @@ nav: true
 nav_order: 4
 ---
 
-## PhD Students
+### PhD Student Mentorship
 
 - **Xinyi Zeng** (2024-Present, PhD Student @ UoL)
 
   Publications: CSCWD 2025
 
-## Master's Students
+### Master's Students
 
 - [**Jiayuan Ma**](https://anton-jiayuan-ma.github.io/) (2024-Present, MSc Student @ USYD)
     
@@ -26,14 +26,14 @@ nav_order: 4
 
   Publications: [CCL 2024-Eval](https://aclanthology.org/2024.ccl-3.37.pdf), [WASSA@ACL 2024](https://aclanthology.org/2024.wassa-1.45.pdf), [INLG 2024 Demo](https://aclanthology.org/2024.inlg-demos.2.pdf)
 
-## Undergraduate Students
+### Undergraduate Students
 
 - **Fuyu Xing** (2024-Present, BSc Student @ XJTLU → MSc Student @ CMU)
 
 - **Lilin Wang** (2023-Present, BEng Student @ XJTLU → MEng Student @ UPenn)
 
-  Publications: BIBE 2023, UIC 2024, ACL 2025 Findings
+  Publications: [BIBE 2023](https://ieeexplore.ieee.org/document/10431887), UIC 2024, ACL 2025 Findings
 
 - **Jianfei He** (2023-Present, BEng Student @ XJTLU → MSc Student @ HKUST)
 
-  Publications: BIBE 2023, UIC 2024
+  Publications: [BIBE 2023](https://ieeexplore.ieee.org/document/10431887), UIC 2024
