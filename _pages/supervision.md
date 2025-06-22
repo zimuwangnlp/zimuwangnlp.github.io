@@ -17,7 +17,7 @@ nav_order: 4
 
 - **Guanxu Li** (2024-Present, MRes Student @ UoL)
 
-- [**Jiayuan Ma**](https://anton-jiayuan-ma.github.io/) (2024-Present, MSc Student @ USYD)<br>  
+- [**Jiayuan Ma**](https://anton-jiayuan-ma.github.io/) (2024-Present, MSc Student @ USYD)<br>
   Publications: [COLING 2025](https://aclanthology.org/2025.coling-main.616.pdf), [CLPsych@NAACL 2025](https://aclanthology.org/2025.clpsych-1.21.pdf)
 
 - **Yue Liu** (2024-Present, MSc Student @ UNSW)<br>
@@ -28,7 +28,8 @@ nav_order: 4
 
 #### Undergraduate Students
 
-- **Fuyu Xing** (2024-Present, BSc Student @ XJTLU → MSc Student @ CMU)
+- **Fuyu Xing** (2024-Present, BSc Student @ XJTLU → MSc Student @ CMU)<br>
+  Publications: CCL 2025
 
 - **Lilin Wang** (2023-Present, BEng Student @ XJTLU → MEng Student @ UPenn)<br>
   Publications: [BIBE 2023](https://ieeexplore.ieee.org/document/10431887), UIC 2024, ACL 2025 Findings
