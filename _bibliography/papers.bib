@@ -4,17 +4,20 @@
 @article{ECAI2025FTCFormer,
   abbr={ECAI 2025},
   title={FTCFormer: Fuzzy Token Clustering Transformer for Image Classification},
-  author={Bao, Muyi and Zeng, Changyu and Wang, Yifan and Yang, Zhengni and Wang, Zimu and Cheng, Guangliang and Qi, Jun and Wang, Wei},
+  author={Bao*, Muyi and Zeng*, Changyu and Wang, Yifan and Yang, Zhengni and Wang, Zimu and Cheng, Guangliang and Qi, Jun and Wang†, Wei},
+  abstract={Transformer-based deep neural networks have achieved remarkable success across various computer vision tasks, largely attributed to their long-range self-attention mechanism and scalability. However, most transformer architectures embed images into uniform, grid-based vision tokens, neglecting the underlying semantic meanings of image regions, resulting in suboptimal feature representations. To address this issue, we propose Fuzzy Token Clustering Transformer (FTCFormer), which incorporates a novel clustering-based downsampling module to dynamically generate vision tokens based on the semantic meanings instead of spatial positions. It allocates fewer tokens to less informative regions and more to represent semantically important regions, regardless of their spatial adjacency or shape irregularity. To further enhance feature extraction and representation, we propose a Density Peak Clustering-Fuzzy K-Nearest Neighbor (DPC-FKNN) mechanism for clustering center determination, a Spatial Connectivity Score (SCS) for token assignment, and a channel-wise merging (Cmerge) strategy for token merging. Extensive experiments on 32 datasets across diverse domains validate the effectiveness of FTCFormer on image classification, showing consistent improvements over the TCFormer baseline, achieving gains of improving 1.43% on five fine-grained datasets, 1.09% on six natural image datasets, 0.97% on three medical datasets and 0.55% on four remote sensing datasets. The code is available at: https://github.com/BaoBao0926/FTCFormer/tree/main.},
   journal={The 28th European Conference on Artificial Intelligence (ECAI 2025)},
   year={2025},
   month={October},
+  arxiv={2507.10283},
   selected={true}
 }
 
 @article{CCL2025CoLA,
   abbr={CCL 2025},
   title={Unveiling the Linguistic Acceptability Judgments of Large Language Models in Multilingual Contexts},
-  author={Xing, Fuyu and Huang, Haoyu and Mo, Dawei and Yang, Xinzhuo and Gao, Zixuan and Wang, Wei and Wang, Zimu and Zhang, Haiyang},
+  author={Xing, Fuyu and Huang, Haoyu and Mo, Dawei and Yang, Xinzhuo and Gao, Zixuan and Wang, Wei and Wang, Zimu and Zhang†, Haiyang},
+  abstract={Linguistic acceptability judgments are essential for evaluating how language models internalize human-like grammatical knowledge. Though some studies have evaluated large language models (LLMs) in this context, existing research lacks systematic exploration of diverse learning paradigms in a multilingual setting. In this paper, we present the first multilingual evaluation of LLMs across four languages (English, Chinese, Japanese, and Russian) in the field of linguistic acceptability. Our evaluation spans both general-purpose (i.e., GPT-4o, GPT-4o mini, DeepSeek-V3, GLM-4-32B, and the Qwen series) and reasoning-oriented (QwQ-32B-Preview and DeepSeek-R1-32B) models under zero-shot and monolingual, cross-lingual and multilingual fine-tuning settings, with comparisons to pre-trained language model (PLM) baselines. Our analysis highlights the strong generalizability of large-scale LLMs through zero-shot prompting, the challenges of fine-tuning small-sized LLMs with skewed training data, the effectiveness of multilingual fine-tuning for low-resource languages, the scaling law exhibited on the task, and the limitation of reasoning-oriented models on the task, even when ``aha moments'' occur during the reasoning process.},
   journal={The 24th China National Conference on Computational Linguistics (CCL 2025)},
   year={2025},
   month={August}
@@ -28,6 +31,8 @@
   journal={Findings of the Association for Computational Linguistics: ACL 2025 (ACL 2025 Findings)},
   year={2025},
   month={July},
+  html={https://aclanthology.org/2025.findings-acl.385/},
+  pdf={https://aclanthology.org/2025.findings-acl.385.pdf},
   arxiv={2502.11095},
   selected={true}
 }
@@ -35,7 +40,7 @@
 @article{Preprint2025PCR,
   abbr={Preprint},
   title={Lost in Pronunciation: Detecting Chinese Offensive Language Disguised by Phonetic Cloaking Replacement},
-  author={Guo, Haotan and He, Jianfei and Ma, Jiayuan and Na, Hongbin and Wang, Zimu and Zhang, Haiyang and Chen, Qi and Wang, Wei and Shi, Zijing and Shen, Tao and Chen, Ling},
+  author={Guo*, Haotan and He*, Jianfei and Ma*, Jiayuan and Na, Hongbin and Wang, Zimu and Zhang, Haiyang and Chen, Qi and Wang, Wei and Shi, Zijing and Shen, Tao and Chen, Ling},
   abstract={Phonetic Cloaking Replacement (PCR), defined as the deliberate use of homophonic or near-homophonic variants to hide toxic intent, has become a major obstacle to Chinese content moderation. While this problem is well-recognized, existing evaluations predominantly rely on rule-based, synthetic perturbations that ignore the creativity of real users. We organize PCR into a four-way surface-form taxonomy and compile PCR-ToxiCN, a dataset of 500 naturally occurring, phonetically cloaked offensive posts gathered from the RedNote platform. Benchmarking state-of-the-art LLMs on this dataset exposes a serious weakness: the best model reaches only an F1-score of 0.672, and zero-shot chain-of-thought prompting pushes performance even lower. Guided by error analysis, we revisit a Pinyin-based prompting strategy that earlier studies judged ineffective and show that it recovers much of the lost accuracy. This study offers the first comprehensive taxonomy of Chinese PCR, a realistic benchmark that reveals current detectors' limits, and a lightweight mitigation technique that advances research on robust toxicity detection.},
   journal={arXiv preprint arXiv:2507.07640},
   year={2025},
@@ -281,9 +286,9 @@
 
 @article{Preprint2024DDM,
   abbr={Preprint},
-  title={Rethinking Human-like Translation Strategy: Integrating Drift-Diffusion Model with Large Language Models for Machine Translation},
+  title={Thinker-DDM: Modeling Deliberation for Machine Translation with a Drift-Diffusion Process},
   author={Na, Hongbin and Wang, Zimu and Maimaiti†, Mieradilijiang and Chen, Tong and Wang, Wei and Shen, Tao and Chen, Ling},
-  abstract={Large language models (LLMs) have demonstrated promising potential in various downstream tasks, including machine translation. However, prior work on LLM-based machine translation has mainly focused on better utilizing training data, demonstrations, or pre-defined and universal knowledge to improve performance, with a lack of consideration of decision-making like human translators. In this paper, we incorporate Thinker with the Drift-Diffusion Model (Thinker-DDM) to address this issue. We then redefine the Drift-Diffusion process to emulate human translators’ dynamic decision-making under constrained resources. We conduct extensive experiments under the high-resource, low-resource, and commonsense translation settings using the WMT22 and CommonMT datasets, in which Thinker-DDM outperforms baselines in the first two scenarios. We also perform additional analysis and evaluation on commonsense translation to illustrate the high effectiveness and efficacy of the proposed method.},
+  abstract={Large language models (LLMs) have demonstrated promising potential in various downstream tasks, including machine translation. However, prior work on LLM-based machine translation has mainly focused on better utilizing training data, demonstrations, or pre-defined and universal knowledge to improve performance, with a lack of consideration of decision-making like human translators. In this paper, we incorporate Thinker with the Drift-Diffusion Model (Thinker-DDM) to address this issue. We then redefine the Drift-Diffusion process to emulate human translators' dynamic decision-making under constrained resources. We conduct extensive experiments under the high-resource, low-resource, and commonsense translation settings using the WMT22 and CommonMT datasets, in which Thinker-DDM outperforms baselines in the first two scenarios. We also perform additional analysis and evaluation on commonsense translation to illustrate the high effectiveness and efficacy of the proposed method.},
   journal={arXiv preprint arXiv:2402.10699},
   year={2024},
   month={February},
