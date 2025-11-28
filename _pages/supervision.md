@@ -31,7 +31,7 @@ nav_order: 4
 #### Undergraduate Students
 
 - **Haotan Guo** (2025, MSc Student @ USYD)<br>
-  Publications: [EMNLP 2025 Industry Track](https://aclanthology.org/2025.emnlp-industry.172.pdf)
+  Publications: [EMNLP 2025 Industry](https://aclanthology.org/2025.emnlp-industry.172.pdf)
 
 - [**Fuyu Xing**](https://belle0918.github.io/) (2024-Present, BSc Student @ XJTLU → MSc Student @ CMU)<br>
   Publications: [CCL 2025](https://aclanthology.org/2025.ccl-1.65.pdf), [INLG 2025](https://aclanthology.org/2025.inlg-main.42.pdf)
@@ -40,4 +40,4 @@ nav_order: 4
   Publications: [BIBE 2023](https://ieeexplore.ieee.org/document/10431887/), [UIC 2024](https://ieeexplore.ieee.org/document/10925066/), [ACL 2025 Findings](https://aclanthology.org/2025.findings-acl.385.pdf)
 
 - **Jianfei He** (2023-Present, BEng Student @ XJTLU → MSc Student @ HKUST)<br>
-  Publications: [BIBE 2023](https://ieeexplore.ieee.org/document/10431887/), [UIC 2024](https://ieeexplore.ieee.org/document/10925066/), [EMNLP 2025 Industry Track](https://aclanthology.org/2025.emnlp-industry.172.pdf)
+  Publications: [BIBE 2023](https://ieeexplore.ieee.org/document/10431887/), [UIC 2024](https://ieeexplore.ieee.org/document/10925066/), [EMNLP 2025 Industry](https://aclanthology.org/2025.emnlp-industry.172.pdf)
