@@ -3,12 +3,23 @@
 @article{Preprint2025DMRS,
   abbr={Preprint},
   title={You Never Know a Person, You Only Know Their Defenses: Detecting Levels of Psychological Defense Mechanisms in Supportive Conversations},
-  author={Na, Hongbin and Wang, Zimu and Chen, Zhaoming and Zhou, Peilin and Hua, Yining and Zhou, Grace Ziqi and Zhang, Haiyang and Shen, Tao and Wang, Wei and Torous, John and Ji, Shaoxiong and Chen, Ling},
+  author={Na*, Hongbin and Wang*, Zimu and Chen*, Zhaoming and Zhou, Peilin and Hua, Yining and Zhou, Grace Ziqi and Zhang, Haiyang and Shen, Tao and Wang, Wei and Torous, John and Ji, Shaoxiong and Chen, Ling},
   abstract={Psychological defenses are strategies, often automatic, that people use to manage distress. Rigid or overuse of defenses is negatively linked to mental health and shapes what speakers disclose and how they accept or resist help. However, defenses are complex and difficult to reliably measure, particularly in clinical dialogues. We introduce PsyDefConv, a dialogue corpus with help seeker utterances labeled for defense level, and DMRS Co-Pilot, a four-stage pipeline that provides evidence-based pre-annotations. The corpus contains 200 dialogues and 4709 utterances, including 2336 help seeker turns, with labeling and Cohen's kappa 0.639. In a counterbalanced study, the co-pilot reduced average annotation time by 22.4%. In expert review, it averaged 4.62 for evidence, 4.44 for clinical plausibility, and 4.40 for insight on a seven-point scale. Benchmarks with strong language models in zero-shot and fine-tuning settings demonstrate clear headroom, with the best macro F1-score around 30% and a tendency to overpredict mature defenses. Corpus analyses confirm that mature defenses are most common and reveal emotion-specific deviations. We will release the corpus, annotations, code, and prompts to support research on defensive functioning in language.},
   journal={arXiv preprint arXiv:2512.15601},
   year={2025},
   month={December},
   arxiv={2512.15601},
+  selected={true}
+}
+
+@article{Preprint2025PCTR-16K,
+  abbr={Preprint},
+  title={A Benchmark and Method for Photographed Table Reasoning},
+  author={Kang, Xiaoqiang and Wang, Zimu and Zi, Xiaochen and Jin, Xiaobo and Huang, Kaizhu and Yin, Fei and Wang†, Qiufeng},
+  abstract={With the advancement of large language models (LLMs) and multimodal LLMs (MLLMs), table reasoning has achieved significant progress. However, most existing works predominantly focus on textual or rendered tables, which differ substantially from real-world photographed scenarios with suboptimal conditions such as uneven lighting, blur, and tilted perspectives. This discrepancy creates a significant performance gap for current MLLMs, limiting their applicability in real-world scenarios. To address this critical limitation, we introduce the first comprehensive study on multimodal reasoning for photographed tables. We present a new dataset Photographed Chinese Table Reasoning (PCTR-16K), which contains 4,989 photographed tables and 16,318 questions, covering 9 subjects and 3 difficulty levels. This dataset serves as the first benchmark specifically designed for reasoning capabilities on tables captured under authentic conditions. To enhance MLLMs' reasoning over photographed tables, we propose a Structure-aware Chain-of-Thought (SCoT), a method that unifies table recognition and reasoning into a single end-to-end generative process. To bolster the structural perception required by SCoT, we further incorporate seven auxiliary table structure understanding (TSU) tasks during fine-tuning. These tasks provide fine-grained supervision across multiple dimensions of table layout and semantics. Extensive experiments on various MLLMs demonstrate that our proposed SCoT and multi-view TSU tasks significantly enhance recognition and reasoning capabilities on photographed tables. For example, LLaVA-Llama3.1 achieves an absolute improvement of 19.53% on the PCTR-16K benchmark (from 44.58% to 64.11%), demonstrating the effectiveness for real-world photographed table reasoning. The dataset will be publicly available at https://github.com/PremiLab-Math/PCTR-16k.},
+  journal={SSRN 5849610},
+  year={2025},
+  month={December},
   selected={true}
 }
 
