@@ -11,6 +11,9 @@ nav_order: 4
 - **Xinyi Zeng** (2024-Present, PhD Student @ UoL)<br>
   Publications: [CSCWD 2025](https://ieeexplore.ieee.org/document/11033252/)
 
+- **Nijia Han** (2024-Present, MSc Student @ UoL → PhD Student @ UoL)<br>
+  Publications: [CCL 2024-Eval](https://aclanthology.org/2024.ccl-3.37.pdf), [WASSA@ACL 2024](https://aclanthology.org/2024.wassa-1.45.pdf), [INLG 2024 Demo](https://aclanthology.org/2024.inlg-demos.2.pdf), [FinNLP@EMNLP 2025](https://aclanthology.org/2025.finnlp-2.20.pdf)
+
 #### Master's Students
 
 - **Tianshi Cai** (2024-Present, MRes Student @ UoL)
@@ -24,9 +27,6 @@ nav_order: 4
 
 - **Yue Liu** (2024-Present, MSc Student @ UNSW)<br>
   Publications: [COLING 2025](https://aclanthology.org/2025.coling-main.616.pdf)
-
-- **Nijia Han** (2024-Present, MSc Student @ UoL → PhD Student @ UoL)<br>
-  Publications: [CCL 2024-Eval](https://aclanthology.org/2024.ccl-3.37.pdf), [WASSA@ACL 2024](https://aclanthology.org/2024.wassa-1.45.pdf), [INLG 2024 Demo](https://aclanthology.org/2024.inlg-demos.2.pdf), [FinNLP@EMNLP 2025](https://aclanthology.org/2025.finnlp-2.20.pdf)
 
 #### Undergraduate Students
 
