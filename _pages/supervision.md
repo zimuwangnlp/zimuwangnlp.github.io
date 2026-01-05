@@ -8,6 +8,9 @@ nav_order: 4
 
 #### PhD Student Mentorship
 
+- **Stephanie Fong** (2025-Present, BSc Student @ UQ)<br>
+  Publications: EACL 2026
+  
 - **Xinyi Zeng** (2024-Present, PhD Student @ UoL)<br>
   Publications: [CSCWD 2025](https://ieeexplore.ieee.org/document/11033252/)
 
