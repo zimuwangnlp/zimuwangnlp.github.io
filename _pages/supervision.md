@@ -19,10 +19,10 @@ nav_order: 4
 
 #### Master's Students
 
-- **Tianshi Cai** (2024-Present, MRes Student @ UoL)
+- **Tianshi Cai** (2024-Present, MRes Student @ UoL)<br>
   Publications: [FinNLP@EMNLP 2025](https://aclanthology.org/2025.finnlp-2.20.pdf)
 
-- **Guanxu Li** (2024-Present, MRes Student @ UoL)
+- **Guanxu Li** (2024-Present, MRes Student @ UoL)<br>
   Publications: [FinNLP@EMNLP 2025](https://aclanthology.org/2025.finnlp-2.20.pdf)
 
 - [**Jiayuan Ma**](https://anton-jiayuan-ma.github.io/) (2024-2025, MSc Student @ USYD → PhD Student @ HIT(SZ))<br>
