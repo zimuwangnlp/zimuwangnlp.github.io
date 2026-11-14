@@ -1,5 +1,15 @@
 ---
 ---
+@article{EACL2027FinAuditor,
+  abbr={EACL 2027},
+  title={FinAuditor: A Proactive Traceable Auditor for Assessing Financial Decision Credibility and Report Quality},
+  author={Cai*, Tianshi and Wang*, Zimu and Peng, Xueqing and Ananiadou, Sophia and Pei†, Jiahuan},
+  journal={Findings of the Association for Computational Linguistics: EACL 2027 (EACL 2027 Findings)},
+  year={2027},
+  month={March},
+  selected={true}
+}
+
 @article{MMAsia2026ReGRL,
   abbr={MMAsia 2026},
   title={From Stitching to Synthesizing: ReGRL and RadAlign-Judge for Coherent Radiology Report Generation and Evaluation},
@@ -9,6 +19,7 @@
   month={December},
   selected={true}
 }
+
 @article{MMAsia2026SMT,
   abbr={MMAsia 2026},
   title={Selection, Measurement, Trust: A Stage-Wise Framework for Query-Conditioned Multi-Lesion Measurement},
@@ -23,10 +34,12 @@
   abbr={AACL 2026},
   title={It Hears, It Sees too: Multi-Modal LLM for Depression Detection By Integrating Visual Understanding into Audio Language Models},
   author={Zhao, Xiangyu and Shen, Yaling and Jiang, Yiwen and Wang, Zimu and Liu, Jiahe and Cheng, Maxmartwell H and Oliveira, Guilherme C and Desimone, Robert and Dwyer, Dominic and Ge, Zongyuan},
-  abstract={Depression is one of the most prevalent mental health disorders globally. In recent years, multi-modal data, such as speech, video, and transcripts, has been increasingly used to develop AI-assisted depression assessment systems. Large language models have further advanced this field due to their strong language understanding and generalization capabilities. However, conventional LLMs remain text-centric and cannot process the rich non-verbal cues found in audio and visual modalities, which are critical components in mental health evaluation. While multi-modal LLMs offer a promising direction, few are tailored for psychological applications. In this study, we propose a novel multi-modal LLM framework for depression detection. Our approach augments an audio language model with visual understanding and aligns audio-visual features at the timestamp level. This fine-grained alignment improves modeling of temporal dynamics across modalities while reducing the need for extensive training data and computational resources. Experiments on the DAIC-WoZ dataset demonstrate that our model outperforms both single-modality approaches and previous multi-modal methods. Moreover, the proposed framework can be extended to incorporate additional physiological signals, paving the way for broader clinical applications beyond mental health.},
-  journal={Findings of the Association for Computational Linguistics: AACL-IJCNLP 2026},
+  abstract={Depression is one of the most prevalent mental health disorders globally. In recent years, multi-modal data, such as speech, video, and transcripts, has been increasingly used to develop AI-assisted depression assessment systems. Large language models (LLMs) have further advanced this field due to their strong language understanding and generalization capabilities. However, conventional LLMs remain text-centric and cannot process the rich non-verbal cues found in audio and visual modalities, which are critical components in mental health evaluation. While multi-modal LLMs offer a promising direction, few are tailored for psychological applications. In this study, we propose a novel multi-modal LLM framework for depression detection. Our approach augments an audio language model with visual understanding and aligns audio-visual features at the timestamp level. This fine-grained alignment improves modeling of temporal dynamics across modalities while reducing the need for extensive training data and computational resources. Experiments on the DAIC-WoZ and E-DAIC datasets demonstrate that our model consistently outperforms both single-modality approaches and previous multi-modal methods. Moreover, the proposed framework can be extended to incorporate additional physiological signals, paving the way for broader clinical applications beyond mental health.},
+  journal={Findings of the Association for Computational Linguistics: AACL-IJCNLP 2026 (AACL-IJCNLP 2026 Findings)},
   year={2026},
   month={November},
+  html={https://aclanthology.org/2026.findings-aacl.211/},
+  pdf={https://aclanthology.org/2026.findings-aacl.211.pdf},
   arxiv={2511.19877},
   selected={true}
 }
@@ -35,18 +48,25 @@
   abbr={WS 2026},
   title={Overview of the PsychEthicsEval Shared Task at MultiPsyche 2026: Evaluating LLMs Against Australian Mental Health Ethics},
   author={Shen*, Yaling and Wang*, Zimu and Fong, Stephanie and Jiang, Yiwen and Tang, Feilong and Xu, Qingyang and Zhao, Xiangyu and Xu, Zhongxing and Liu, Jiahe and Hu, Jinpeng and Ge, Zongyuan and Dwyer, Dominic},
+  abstract={We present PsychEthicsEval, a shared task that evaluates the alignment of large language models (LLMs) with Australian professional ethics guidelines in psychology and psychiatry. Building on PsychEthicsBench, the task comprises two complementary tracks: Multiple-Choice Questions (MCQ) assessing explicit ethical knowledge and Open-Ended Questions (OEQ) assessing ethical behavior in free-form responses. MCQ systems are ranked by Partial Credit (PC), while OEQ ethical rates are reported separately under rule-classifier and LLM-as-a-judge protocols. Four teams submitted final systems, with three systems evaluated in each track. AI4Health achieves the highest MCQ PC score of 0.832 and leads the rule-classifier OEQ evaluation, whereas XJTLU-EthicsPrompt leads under the LLM judge. Diagnostic analysis identifies judgments about professional identity and qualifications as the main source of the score gap between these two systems under the LLM judge, while jurisdictional applicability is a major source of score loss for group11 under the rule-classifier protocol, showing that comparisons of systems in open-ended ethical evaluation depend on how professional ethical criteria are applied.},
   journal={The First Workshop on Multimodal, Multilingual, and Multicultural Mental Health and Psychotherapy (MultiPsyche 2026)},
   year={2026},
-  month={November}
+  month={November},
+  html={https://aclanthology.org/2026.multipsyche-1.12/},
+  pdf={https://aclanthology.org/2026.multipsyche-1.12.pdf},
 }
 
 @article{EMNLP2026StratCBT,
   abbr={EMNLP 2026},
   title={Steering the Compass: Aligning Dynamic Psychological Counseling Conversations with Cognitive Behavioral Therapy Strategies},
   author={Wang, Zimu and Jiang, Yiwen and Zhao, Xiangyu and Shen, Yaling and Liu, Jiahe and Fong, Stephanie and Cheng, Maxmartwell H and Oliveira, Guilherme C and Nguyen, Anh and Desimone, Robert and Nelson, Barnaby and Dwyer, Dominic and Ge, Zongyuan},
+  abstract={Recent advancements in large language models have revolutionized the field of psychological counseling, especially in the context of Cognitive Behavioral Therapy (CBT). While the success of CBT relies heavily on dynamic decision-making informed by the client’s real-time mental state, this aspect has often been overlooked in current research, limiting both flexibility and therapeutic outcomes. In this paper, we introduce StratCBT, a dataset specifically designed for psychological counseling conversations with CBT Strategies, consisting of 9,688 sessions and around 256K utterances, with each counselor’s response aligned with one of eight distinct strategies. The creation of StratCBT involves modeling clients based on their negative thoughts and generating high-quality counseling conversations through self-chat, incorporating realistic sessions as guidance, thereby significantly surpassing existing datasets in both general counseling and CBT-specific skills. We conduct extensive experiments to demonstrate the effectiveness of strategy-aligned generation and evaluate its efficacy in delivering professional and effective counseling with LLM-simulated clients to reflect real-world scenarios. The dataset can be obtained from https://github.com/zimuwangnlp/StratCBT.},
   journal={The 2026 Conference on Empirical Methods in Natural Language Processing (EMNLP 2026)},
   year={2026},
   month={October},
+  html={https://aclanthology.org/2026.emnlp-main.2285/},
+  pdf={https://aclanthology.org/2026.emnlp-main.2285.pdf},
+  arxiv={2609.20565},
   selected={true}
 }
 
@@ -54,20 +74,26 @@
   abbr={EMNLP 2026},
   title={SDARE-Bench: Evaluating Large Language Models on Conversational Stigma Detection and Response in Dyadic and Group Dialogue},
   author={Fong, Stephanie and Jiang, Yiwen and Wang, Zimu and Yang, Hongxi and Shen, Yaling and Naomi, Chow Hiu Weh and Lai, Heung Ying and Zhao, Xiangyu and Xu, Qingyang and Xu, Zhongxing and Liu, Jiahe and Oliveira, Guilherme C and Lee, Vincent and Ge, Zongyuan and Dwyer, Dominic},
+  abstract={Large Language Models (LLMs) are increasingly used in advice seeking and decision making that may affect social judgements. Despite stigma’s profound effects on people and communities, benchmarks remain scarce. Existing general-domain evaluations typically rely on static prompts and fixed-format tasks, overlooking conversational contexts and audience effects in everyday communication. To address these gaps, we introduce SDARE-Bench, the first scenario-based benchmark evaluating both stigma detection and open-ended response generation in LLMs, comprising 1,138 dyadic queries and 1,388 group dialogues. Empirical results across 8 LLMs consistently demonstrate poor identification of stigma components, especially in group dialogues. In open-ended response generation, stigma expression was substantially higher in group settings than in dyadic, with weaker resistance to stigma and more unrealistic advice. Responses were evaluated using a classifier trained on 1,392 human annotated responses. In constructed group pressure settings, stigma expression rates further increased to a striking average of 97.5%. Our findings identify stigma response as a recurring LLM safety vulnerability, especially in socially complex conversational contexts.},
   journal={The 2026 Conference on Empirical Methods in Natural Language Processing (EMNLP 2026)},
   year={2026},
   month={October},
+  html={https://aclanthology.org/2026.emnlp-main.2279/},
+  pdf={https://aclanthology.org/2026.emnlp-main.2279.pdf},
+  arxiv={2609.01548},
   selected={true}
 }
 
 @article{EMNLP2026GraphRAG,
   abbr={EMNLP 2026},
   title={GraphRAG-Router: Learning Cost-Efficient Routing over GraphRAGs and LLMs with Reinforcement Learning},
-  author={Fan, Dongzhe and Ji, Chuanhao and Wang, Zimu and Chen, Tong and Tan, Qiaoyu},
+  author={Fan, Dongzhe and Ji, Chuanhao and Wang, Zimu and Chen, Tong and Tan†, Qiaoyu},
   abstract={Graph-based retrieval-augmented generation (GraphRAG) has recently emerged as a powerful paradigm for knowledge-intensive question answering, especially for tasks that require structured evidence organization and multi-hop reasoning. However, existing GraphRAG systems are typically built in a one-size-fits-all manner, relying on a fixed retrieval framework and a single, often large and costly, generator LLM for all queries. This static design limits their ability to adapt to the complexity of varying questions and often incurs unnecessary computational cost. To fill in the gap, we propose GraphRAG-Router, a cost-efficient framework that adopts a hierarchical routing strategy to coordinate heterogeneous GraphRAGs and generator LLMs. Specifically, GraphRAG-Router is first warmed up through supervised fine-tuning and then optimized with a two-stage reinforcement learning procedure, whose second stage introduces a curriculum cost-aware reward to encourage difficulty-aware and economical generator allocation. Extensive experiments on six general-domain and multi-hop QA benchmarks show that GraphRAG-Router consistently outperforms state-of-the-art baselines, reducing the overuse of large LLMs by nearly 30% while maintaining strong generalization capability.},
   journal={The 2026 Conference on Empirical Methods in Natural Language Processing (EMNLP 2026)},
   year={2026},
   month={October},
+  html={https://aclanthology.org/2026.emnlp-main.2218/},
+  pdf={https://aclanthology.org/2026.emnlp-main.2218.pdf},
   arxiv={2604.16401},
   selected={true}
 }
@@ -75,51 +101,68 @@
 @article{EMNLP2026SAFARI,
   abbr={EMNLP 2026},
   title={SAFARI: An Industrial Benchmark for LLM-Assisted Hazard Analysis and Risk Assessment},
-  author={Wu, Chenxi and Wang, Zimu and Zhang, Haiyang and Wang, Wei and Xu, Zhijie},
+  author={Wu*, Chenxi and Wang*, Zimu and Zhang†, Haiyang and Wang, Wei and Xu, Zhijie},
+  abstract={Large language models (LLMs) are increasingly considered for safety-critical engineering, yet their reliability in regulated functional-safety workflows remains underexplored. We introduce SAFARI (Safety-Aware Functional Automotive Risk Inference), the first industrial benchmark for LLM-assisted automotive Hazard Analysis and Risk Assessment (HARA) under ISO 26262. It contains 3,000 de-identified industrial HARA cases and evaluates two coupled tasks: open-ended hazard analysis and standards-grounded risk assessment. To evaluate open-ended HARA artifacts, we propose the first reference-anchored LLM-as-a-judge protocol with high expert correlation. Experiments with nine frontier LLMs show that models often produce plausible hazard narratives but remain weak at ISO 26262 risk classification, with the best ASIL macro-F1 reaching only 0.261. Chain-of-Thought prompting provides limited benefit and often degrades categorical risk assessment. Error analysis further localizes major failures to scenario-critical context omissions during hazard generation and to controllability misjudgments during risk assessment, indicating where expert oversight should be concentrated. The dataset can be obtained from https://github.com/xixi47520-hash/HARA.},
   journal={The 2026 Conference on Empirical Methods in Natural Language Processing: Industry Track (EMNLP 2026 Industry)},
   year={2026},
   month={October},
+  html={https://aclanthology.org/2026.emnlp-industry.128/},
+  pdf={https://aclanthology.org/2026.emnlp-industry.128.pdf},
+  arxiv={2609.20584},
   selected={true}
 }
 
 @article{EMNLP2026ChronoClinQA,
   abbr={EMNLP 2026},
   title={ChronoClinQA: A Longitudinal Multi-Admission Benchmark for Clinical Reasoning over Electronic Health Records},
-  author={Chen*, Tong and Wang*, Zimu and Fan, Dongzhe and Chen, Luoyao and Lian, Haoyi and Wang, Yifan and Yang, Zhengni and Jiang, Zhengyong and Sen, Procheta and Wang, Wei and Su, Jionglong and Tan, Qiaoyu},
+  author={Chen*, Tong and Wang*, Zimu and Fan, Dongzhe and Chen, Luoyao and Lian, Haoyi and Wang, Yifan and Yang, Zhengni and Jiang, Zhengyong and Sen, Procheta and Wang, Wei and Su†, Jionglong and Tan†, Qiaoyu},
+  abstract={Large language models (LLMs) have shown strong performance on medical question answering benchmarks, yet existing evaluations remain limited in assessing longitudinal clinical reasoning across multiple hospital admissions. We introduce ChronoClinQA, a large-scale benchmark for longitudinal clinical reasoning grounded in multi-admission electronic health records. Built from longitudinal discharge summaries in MIMIC-IV-Note, ChronoClinQA contains 15,067 QA pairs spanning six clinically grounded reasoning dimensions and three complementary question formats: open-ended, adversarial, and unanswerable multiple-choice questions. Each instance requires reasoning over temporally accumulated patient trajectories, with contexts averaging over 16K tokens across up to eight hospital admissions. Experiments on both general-purpose and medical LLMs reveal substantial performance degradation in longitudinal and adversarial settings, highlighting persistent challenges in integrating cross-admission evidence and in temporal clinical reasoning. Our findings position ChronoClinQA as a challenging benchmark for advancing clinically grounded long-context reasoning in medical LLMs.},
   journal={Findings of the Association for Computational Linguistics: EMNLP 2026 (EMNLP 2026 Findings)},
   year={2026},
   month={October},
+  html={https://aclanthology.org/2026.findings-emnlp.2235/},
+  pdf={https://aclanthology.org/2026.findings-emnlp.2235.pdf},
   selected={true}
 }
 
 @article{EMNLP2026SinoGlyphBench,
   abbr={EMNLP 2026},
-  title={SinoGlyphBench: A Diagnostic Benchmark for Chinese Glyph-level Obfuscation in LLM Moderation},
-  author={Wang*, Yifan and Wang*, Zimu and Qin*, Suliu and Zeng, Changyu and Chen, Tong and Chen, Siqi and Lin, Yijie and Jiang, Lingyu and Su, Jionglong and Pan, Yushan and Zhang, Haiyang and Wang, Wei and Tan, Qiaoyu},
+  title={SinoGlyphBench: A Diagnostic Benchmark for Chinese Glyph-Level Obfuscation in Language-Model Moderation},
+  author={Wang*, Yifan and Wang*, Zimu and Qin*, Suliu and Zeng, Changyu and Chen, Tong and Chen, Siqi and Lin, Yijie and Jiang, Lingyu and Su, Jionglong and Pan, Yushan and Zhang, Haiyang and Wang, Wei and Tan†, Qiaoyu},
+  abstract={Glyph-level obfuscation can leave harmful Chinese content readable to humans while degrading automated moderation. We introduce SinoGlyphBench, a diagnostic benchmark that identifies label-critical semantic anchors and creates matched original and glyph-obfuscated inputs in text and image modalities. By perturbing anchors, background context, or both, this design distinguishes corruption of moderation-relevant evidence from general surface variation. Across 176,916 paired evaluations of 12 LLMs and MLLMs, obfuscation increases harmful false-negative and false-positive rates by 6.1 and 4.7 percentage points, respectively, and reduces four-way accuracy by 5.0 points. Models retain 75.7% of the decisions that were correct on the matched original inputs. Full-scope perturbations cause the largest degradation, anchor-only perturbations are more damaging than background-only perturbations, and cross-script substitution is particularly difficult in the text modality. Analysis of structured outputs identifies observable mismatches in visible-form reading, intended-message recovery, and final safety judgment. The evaluated models, therefore, remain brittle to Chinese content written with non-canonical glyphs. Resources are available at https://github.com/fengshun124/SinoGlyphBench.},
   journal={Findings of the Association for Computational Linguistics: EMNLP 2026 (EMNLP 2026 Findings)},
   year={2026},
   month={October},
+  html={https://aclanthology.org/2026.findings-emnlp.2081/},
+  pdf={https://aclanthology.org/2026.findings-emnlp.2081.pdf},
+  arxiv={2609.05843},
   selected={true}
 }
 
 @article{EMNLP2026VIBE-Bench,
   abbr={EMNLP 2026},
   title={VIBE-Bench: Evaluating Personalized Large Language Models When Profiles Don't Mean Preferences},
-  author={Jiang, Yiwen and Deng, Yang and Fong, Stephanie and Wang, Zimu and Shen, Yaling and Feng, Wei and Yang, Hongxi and Zhao, Xiangyu and Xu, Zhongxing and Mehta, Deval and Cheng, Xuelian and Ge, Zongyuan},
+  author={Jiang, Yiwen and Deng, Yang and Fong, Stephanie and Wang, Zimu and Shen, Yaling and Feng, Wei and Yang, Hongxi and Zhao, Xiangyu and Xu, Zhongxing and Mehta, Deval and Cheng, Xuelian and Ge†, Zongyuan},
+  abstract={Personalized Large Language Models (PLLMs) aim to tailor responses to individual users, where a central challenge is preference reasoning: inferring query-relevant preferences from user-related history. Existing benchmarks, however, largely assume that such preference can be retrieved from semantically related history. We study an underexplored but practically important regime, profile-preference conceptual misalignment (PRCM), where observable profile cues and query-specific preferences lie in different concept spaces, making semantic retrieval inconsistent for personalization. We introduce Vibe-Bench, a benchmark with two psychology-grounded tasks, 3,504 personas and 12,239 dialogues, including a manually verified gold test set, and requires cross-concept preference reasoning beyond surface semantic overlap. Experiments with several personalization methods show that current PLLMs largely rely on shallow semantic correlations and fail to acquire robust cross-concept mappings. These findings establish PRCM as a distinct failure regime in PLLMs and position Vibe-Bench as a focused testbed for advancing preference reasoning beyond semantic matching.},
   journal={Findings of the Association for Computational Linguistics: EMNLP 2026 (EMNLP 2026 Findings)},
   year={2026},
   month={October},
+  html={https://aclanthology.org/2026.findings-emnlp.1676/},
+  pdf={https://aclanthology.org/2026.findings-emnlp.1676.pdf},
+  arxiv={2609.00921},
   selected={true}
 }
 
 @article{EMNLP2026PCSA,
   abbr={EMNLP 2026},
   title={Do No Harm: Exposing Hidden Vulnerabilities of LLMs via Persona-based Client Simulation Attack in Psychological Counseling},
-  author={Xu, Qingyang and Shen, Yaling and Fong, Stephanie and Wang, Zimu and Jiang, Yiwen and Zhao, Xiangyu and Liu, Jiahe and Xu, Zhongxing and Lee, Vincent and Ge, Zongyuan},
-  abstract={The increasing use of large language models (LLMs) in mental healthcare raises safety concerns in high-stakes therapeutic interactions. A key challenge is distinguishing therapeutic empathy from maladaptive validation, where supportive responses may inadvertently reinforce harmful beliefs or behaviors in multi-turn conversations. This risk is largely overlooked by existing red-teaming frameworks, which focus mainly on generic harms or optimization-based attacks. To address this gap, we introduce Personality-based Client Simulation Attack (PCSA), the first red-teaming framework that simulates clients in psychological counseling through coherent, persona-driven client dialogues to expose vulnerabilities in psychological safety alignment. Experiments on seven general and mental health-specialized LLMs show that PCSA substantially outperforms four competitive baselines. Perplexity analysis and human inspection further indicate that PCSA generates more natural and realistic dialogues. Our results reveal that current LLMs remain vulnerable to domain-specific adversarial tactics, providing unauthorized medical advice, reinforcing delusions, and implicitly encouraging risky actions.},
+  author={Xu, Qingyang and Shen, Yaling and Fong, Stephanie and Wang, Zimu and Jiang, Yiwen and Zhao, Xiangyu and Liu, Jiahe and Xu, Zhongxing and Lee†, Vincent and Ge†, Zongyuan},
+  abstract={The increasing use of large language models (LLMs) in mental healthcare raises safety concerns in high-stakes therapeutic interactions. A key challenge is distinguishing therapeutic empathy from maladaptive validation, where supportive responses may inadvertently reinforce harmful beliefs or behaviors in multi-turn conversations. This risk is largely overlooked by existing red-teaming frameworks, which focus mainly on generic harms or optimization-based attacks. To address this gap, we introduce Persona-based Client Simulation Attack (PCSA), the first red-teaming framework that simulates clients in psychological counseling through coherent, persona-driven client dialogues to expose vulnerabilities in psychological safety alignment. Experiments on eight general and mental health-specialized LLMs show that PCSA substantially outperforms four competitive baselines. Perplexity analysis and human inspection further indicate that PCSA generates more natural and realistic dialogues. Our results reveal that current LLMs remain vulnerable to domain-specific adversarial tactics, providing unauthorized medical advice, reinforcing delusions, and implicitly encouraging risky actions.},
   journal={Findings of the Association for Computational Linguistics: EMNLP 2026 (EMNLP 2026 Findings)},
   year={2026},
   month={October},
+  html={https://aclanthology.org/2026.findings-emnlp.1791/},
+  pdf={https://aclanthology.org/2026.findings-emnlp.1791.pdf},
   arxiv={2604.04842},
   selected={true}
 }
@@ -127,11 +170,13 @@
 @article{EMNLP2026AudioProcessBench,
   abbr={EMNLP 2026},
   title={AudioProcessBench: Benchmark for Identifying Process Errors in Audio-Grounded Reasoning},
-  author={Zhao, Xiangyu and Yan, Junyu and Shen, Yaling and Wang, Zimu and Jiang, Yiwen and Fong, Stephanie and Xu, Qingyang and Liu, Jiahe and Dwyer, Dominic and Ge, Zongyuan},
+  author={Zhao, Xiangyu and Yan, Junyu and Shen, Yaling and Wang, Zimu and Jiang, Yiwen and Fong, Stephanie and Xu, Qingyang and Liu, Jiahe and Dwyer†, Dominic and Ge†, Zongyuan},
   abstract={Large audio-language models (LALMs) increasingly use explicit reasoning traces for complex audio understanding, yet the evaluation of reasoning quality remains underexplored. Although process-level benchmarks for process reward models (PRMs) have advanced reasoning evaluation in text and multi-modal domains, comparable evaluation for audio reasoning remains limited. In this paper, we present AudioProcessBench, a comprehensive benchmark for step-level process error identification in audio reasoning. AudioProcessBench contains diverse reasoning traces generated by 6 audio and omni language models. Each trace is segmented into discrete reasoning steps and annotated with binary step correctness and fine-grained error types. Our benchmark evaluates models under three complementary paradigms: (1) step correctness identification, (2) error-type-conditioned detection for diagnosing audio-specific verifier capacities, and (3) chain-level aggregation, where verifiers select or aggregate among multiple reasoning traces for the same question. This design enables a systematic analysis of whether current models can detect process errors, whether their weaknesses differ across audio-specific error types, and whether process verification translates into improved answer selection. AudioProcessBench provides a testbed for future research on audio reasoning verifiers, process reward models, and reliable omni-modal reasoning.},
   journal={Findings of the Association for Computational Linguistics: EMNLP 2026 (EMNLP 2026 Findings)},
   year={2026},
   month={October},
+  html={https://aclanthology.org/2026.findings-emnlp.1686/},
+  pdf={https://aclanthology.org/2026.findings-emnlp.1686.pdf},
   arxiv={2606.09925},
   selected={true}
 }
@@ -139,7 +184,8 @@
 @article{CCL2026Task7,
   abbr={CCL 2026},
   title={Overview of CCL26-Eval Task 7: Cross-lingual Sentiment Consistency Evaluation for Classical Literature (BCCL-CSA 2026)},
-  author={Zhou, Jingshi and Wang, Zimu and Zhang, Haiyang and Zhang, Xiaojun and Xu, Ruifeng},
+  author={Zhou, Jingshi and Wang, Zimu and Zhang, Haiyang and Zhang†, Xiaojun and Xu, Ruifeng},
+  abstract={This paper presents an overview of CCL26-Eval Task-7, the First Cross-lingual Sentiment Consistency Evaluation for Classical Literature (BCCL-CSA-2026). Building on the CCL-SEL corpus and the SPAF sentiment-preservation framework (Zhou et al., 2025), the shared task evaluates whether multilingual models can understand fine-grained literary affect and remain consistent across Chinese--English parallel passages from classical Chinese literature. We release a competition subset of CCL-SEL containing 2,607 Chinese--English sentence pairs from 11 classical works, each annotated with three-way sentiment polarity and a seven-dimensional emotion distribution. The evaluation comprises three complementary tracks: monolingual sentiment classification, cross-lingual zero-shot transfer, and parallel consistency evaluation. Emotion-distribution scoring follows the EMOS framework (Zhou et al., 2026). A total of 45 teams registered and submitted valid results. After double-blind review, four system reports are accepted and three among them are invited oral presentations. This overview describes the task design, dataset, metrics, baselines, official ranking, and the main technical findings of the accepted systems.},
   journal={The 25th China National Conference on Computational Linguistics: Evaluations (CCL26-Eval)},
   year={2026},
   month={October}
@@ -149,6 +195,7 @@
   abbr={CCL 2026},
   title={Overview of CCL26-Eval Task 8: Evidence-Based Fact-Checking of LLM-Generated Chinese Medical Content},
   author={Chen, Tong and Wang, Zimu and Su, Jionglong and Jiang, Zhengyong and Wang, Wei},
+  abstract={Large language models (LLMs) can generate detailed medical responses, but verifying whether the available evidence supports their claims remains challenging, particularly when a statement combines supported information with unsupported details. To evaluate this capability in Chinese, we organize CCL26-Eval Task 8, a shared task on evidence-based fact-checking of LLM-generated medical content. Built on MedFact, which contains 1,321 medical questions and 7,409 claims, the task requires systems to classify each claim–evidence pair as Supported, Partially Supported, Refuted, Uncertain, or Not Applicable. This formulation distinguishes incomplete support from insufficient or contradictory evidence, while macro-F1 serves as the primary metric to account for the imbalanced label distribution. Six teams submitted system reports, exploring model adaptation, selective verification, and structured evidence reasoning, with final macro-F1 scores ranging from 0.45 to 0.53. Their results highlight the difficulty of determining evidence coverage and distinguishing closely related labels. Additional verification stages yield inconsistent gains, underscoring the need to assess when revising an initial prediction improves its alignment with the evidence.},
   journal={The 25th China National Conference on Computational Linguistics: Evaluations (CCL26-Eval)},
   year={2026},
   month={October}
@@ -158,9 +205,34 @@
   abbr={CCL 2026},
   title={Overview of CCL26-Eval Task 11: Automated Hazard Analysis and Risk Assessment in Autonomous Driving},
   author={Yang, Xu and Zhang, Haiyang and Wang, Wei and Wang, Zimu},
+  abstract={Large language models (LLMs) show potential for assisting with safety-critical engineering tasks, but their reliability in automotive safety analysis remains underexplored. We propose CCL26-Eval Task 11, Automated Hazard Analysis and Risk Assessment in Autonomous Driving, a shared task based on the SAFARI dataset, which consists of 3,000 de-identified industrial HARA cases. Following the ISO 26262 workflow, we divide the task into two sequential subtasks: hazard analysis, which focuses on structured hazard generation from structured operational scenarios, and risk assessment, which centers on Exposure/Severity/Controllability evaluation, ASIL derivation, and safety goal prediction, thereby providing a comprehensive testbed for LLM-based automotive safety engineering. Five teams officially submitted their results, with systems combining LLMs, retrieval, structured modeling, and domain constraints, highlighting the potential and remaining challenges of applying LLMs to automotive safety engineering.},
   journal={The 25th China National Conference on Computational Linguistics: Evaluations (CCL26-Eval)},
   year={2026},
   month={October}
+}
+
+@article{Preprint2026MANTIS,
+  abbr={Preprint},
+  title={MANTIS: Multi-Axis News Transformations for Instance-Wise Stress Testing and Worst-Case Training in Fake News Detection},
+  author={Liu*, Dexin and Yang*, Fan and Wang*, Zimu and Zhu, Xunfei and Ren, Bolin and Zhang, Bingyan and Wang, Wei and Chen†, Qi},
+  abstract={Automated fake news detection is vital on social media, where fake news is easily rewritten to fool detectors. However, existing approaches typically rely on superficial writing cues or single-style text rewrites, resulting in poor robustness under diverse cosmetic modifications. We construct MANTIS-Bench, a multi-axis presentation-attack benchmark that pairs original news with rewritten views across writing style, emotional expression, and dissemination framing. We further propose MANTIS, an instance-adaptive adversarial framework enabling dynamic worst-case training tailored to each news article with zero inference-time overhead. This reframes fake news defense from heuristic format smoothing into targeted, fact-invariant credibility assessment. Experiments on MANTIS-Bench show that MANTIS reduces the Union Attack Success Rate (UASR) by 3.55 percentage points relative to SheepDog on GossipCop and consistently outperforms prior single-axis defenses on Macro-F1 while maintaining competitive clean accuracy, demonstrating the effectiveness of multi-axis and instance-adaptive worst-case training.},
+  journal={arXiv preprint arXiv:arXiv:2610.35475},
+  year={2026},
+  month={October},
+  arxiv={2610.35475},
+  selected={true}
+}
+
+@article{Preprint2026Reading,
+  abbr={Preprint},
+  title={Reading Too Much Into It? Interpretive Preferences and Commitment in LLM Mentalisation under Ambiguity},
+  author={Fong, Stephanie and Jiang†, Yiwen and Xu, Qingyang and Wang, Zimu and Shen, Yaling and Zhao, Xiangyu and Liu, Jiahe and Zhang, Yinghao and Lee, Vincent and Dwyer, Dominic},
+  abstract={Large Language Models (LLMs) are increasingly used for interpersonal advice, potentially shaping how users interpret ambiguous social encounters. Existing Theory of Mind evaluations typically rely on predefined answers, while uncertainty research overlooks LLMs' preferred explanations and confidence under psychological distress. To address these gaps, we introduce MentalLoom, a novel evaluation of LLM mentalisation comprising 604 ambiguous social episodes, matched depression and social anxiety disclosures, and four-turn dialogues with unchanged event evidence. Across eight LLMs, disclosures initially elicited more negative explanations overall but more positive narrator-directed interpretations. Scripted repeated questioning showed greater emotional support, stronger positive narrator-directed endorsement, and higher certainty without new event evidence. These findings show that user context can reshape interpretive preferences and commitment while the underlying ambiguity remains unresolved.},
+  journal={arXiv preprint arXiv:arXiv:2610.28105},
+  year={2026},
+  month={October},
+  arxiv={2610.28105},
+  selected={true}
 }
 
 @article{PR2026PCTR-16K,
@@ -179,9 +251,12 @@
   abbr={MICCAI 2026},
   title={Skin2Mind: A Multimodal Framework for Mental Health Risk Screening via Facial Images and Structured Skin Reports},
   author={Liu, Jiahe and Nhu, Duong and Zhao, Xiangyu and Jiang, Yiwen and Yan, Siyuan and Xue, Xiangyi and Shen, Yaling and Oliveira, Guilherme Camargo de and Fong, Stephanie and Xu, Qingyang and Wang, Zimu and Wang, Fudi and Zhang, Xiaoqing and Dwyer, Dominic and Kuhlmann, Levin and Ge, Zongyuan},
+  abstract={Mental health screening predominantly relies on subjective questionnaires, leaving observable biological signals uncaptured. The skin-brain axis, mediated by neuro-immune and endocrine pathways, links psychological states to measurable changes in facial skin phenotypes. However, no computational framework has directly modeled this link for individual-level mental health risk prediction. We propose Skin2Mind, to the best of our knowledge, the first psychodermatology-grounded framework that integrates multi-spectral facial skin images (white, cross-polarized, and UV illumination) with structured skin analysis reports covering pigmentation, pilosebaceous activity, vascular response, structural aging patterns, barrier sensitivity, and facial morphology. To address inter-modal redundancy in co-acquired skin imaging and structured report modalities, we introduce a Hierarchical Anchor Residual Fusion strategy that treats UV images as the anchor modality and integrates auxiliary modalities through gated residual pathways. Evaluated on a clinical cohort of 192 subjects, Skin2Mind achieves an Area Under the ROC Curve (AUC) of 81.66% for DSM-5-aligned at-risk mental health classification, outperforming representative tabular, unimodal, and vision-language baselines. More importantly, semantic-level Leave-One-Feature-Out analysis reveals that the model predictions are driven by dermatologic dimensions consistent with skin-brain axis mechanisms, including epidermal barrier sensitivity, periorbital fatigue cues, pilosebaceous activity, and stress-related structural aging features. These findings provide the first computational evidence that quantitative facial skin phenotypes can serve as non-invasive, scalable biomarkers for mental health risk screening.},
   journal={The 29th International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI 2026)},
   year={2026},
   month={September},
+  html={https://link.springer.com/chapter/10.1007/978-3-032-38260-3_50},
+  pdf={https://papers.miccai.org/miccai-2026/paper/0579_paper.pdf},
   selected={true}
 }
 
@@ -189,6 +264,7 @@
   abbr={Preprint},
   title={Last Translation Benchmark},
   author={Zouhar, Vilém and Bafna, Niyati and Choudhary, Mukund and Züfle, Maike and Rajaee, Sara and Chen, Pinzhen and Vamvas, Jannis and Papi, Sara and de Gibert, Ona and Malik, Bhavitvya and Habba, Eliya and Mastromichalakis, Orfeas Menis and Schmidtová, Patrícia and Wastl, Michelle and Issaka, Sheriff and Choshen, Leshem and Biderman, Stella and Anastasopoulos, Antonis and Niehues, Jan and Sennrich, Rico and Sachan, Mrinmaya and Bojar, Ondřej and Murray, Kenton and Tiedemann, Jörg and Aji, Alham Fikri and Koehn, Philipp and Monz, Christof and Birch, Alexandra and Vajjala, Sowmya and Kranti, Chalamalasetti and España-Bonet, Cristina and Sarwar, Nobin and Kaczér, David and Asano, Shunta and Marmonier, Malik and Jaff, Daban Q. and Mishra, Vaisakhi and Khalifa, Hend Al- and Sarti, Gabriele and Saha, Sourajit and Rehlinger, Nils and Villa, Juan Daniel Cuervo and Tonglet, Jonathan and Purkayastha, Saugata and Macháček, Dominik and Ramanujam, Jagannathan and Do, Heejin and Nadova, Zuzana and Philippy, Fred and Retkowski, Fabian and Lymperaiou, Maria and Casola, Silvia and Yukhymenko, Hanna and Dipta, Shubhashis Roy and Ryu, Sangwon and Jerez, Andrés and Keinan, Ron and Yusuf, Shuaib Shuaib and Vempati, Avantica and Staiano, Maria Carmen and Purkayastha, Sukannya and Cosma, Adrian and Babenko, Vitalii and Inan, Erivan and Nigam, Aviral and Aissa, Wafa and Haouari, Fatima and Gummadi, Venkata Prasanth Kumar and Jafarzadeh, Mehdi and Scourneau, Valentin and Edman, Lukas and Sun, Kaiser and Tan, Shaomu and Gholizadeh, Mohammad Sadegh and David, Johannes-Rudolf and Srirag, Dipankar and Gilabert, Javier García and Binkyte, Ruta and Ali, Manar and Bucur, Ana-Maria and Farrag, Sabry E. and Saber, Youssef and Liu, Yihong and Maillard, Jean and Nicoleta, Cojocaru and Yuan, Xiaochuang and Ahmadi, Sina and Mondorf, Philipp and Dhole, Kaustubh and Wixinger, Roman and Qian, Shenbin and Tuor, Manuel and Troshin, Sergey and Yahav, Jonathan and Thoker, Fida Mohammad and Rezapour, Amir Arsalan and Gamboa, Lance Calvin Lim and Reusens, Manon and Kukk, Kätriin and Chowdhury, Koel Dutta and Gallipoli, Giuseppe and Hoang, Christian and Saha, Shaswati and Aycock, Seth and Kocoń, Jan and Chen, Bo and Vu, Linh and Venkatkrishna, Vatsal and Ahsan, Arafat and Nguyen, Luan Thanh and Soliman, Hassan and Dementieva, Daryna and Rampisela, Theresia Veronika and Do, Ngoc Quynh Tram and Huber, Marius and Egashira, Kazuki and Wasi, Azmine Toushik and Poritski, Vladislav and Zhang, Mike and Shah, Deep and Gavrikov, Paul and Salim, Luis Frentzen and Africa, David and Damanhuri, R. and Bello, Bello Umar and Garg, Anumit and Rao, Gengyu and Ammanamanchi, Pawan Sasanka and Dementaviciute, Kamile and Michail, Andrianos and Teja, L D M S Sai and Zhu, Dawei and Fan, Yi and Liu, Wei and Farsi, Farhan and Herranen, Elias and Chowdhury, Sankalan Pal and Sanchez, Karen and Shami, Farzad and Urlana, Ashok and Wang, Zimu and Limisiewicz, Tomasz and Pattnayak, Priyaranjan and Ojastu, Marii and Na, Hongbin and Radoi, Emilian and Zhao, Chenyi and Hinojosa, Carlos and de Varda, Andrea Gregor and Alyafeai, Zaid and Alzahrani, Reem and Kathrotia, Nehal and Flückiger, Alex and Carr, Ulysses Sekai Tully and Layacan, Jimson Paulo and Kaplan, Guy and Tiwari, Ritwik and Dagli, Rishit and Volchek, Oksana and Caswell, Isaac R and Yi, Bowen and Kövér, Blanka and Yari, Amir Hossein and Chorana, Aicha and Wang, Zhengxiang and Keränen, Selja and Simko, Samuel and Olusanya, Joy and Chim, Jenny and Doyen, Enzo and Lakkamaneni, Vivek Harsha and Conrad, Sophia and Sadeghi, Pouya and Panayiotou, Panayiotis and Lara, Luis and Nayem, Jannatul and Yahav, Eran and Das, Debanshu and Karamolegkou, Antonia and Goel, Anmol and Mandal, Aishik and Cerruti, Tommaso and Zhao, Raoyuan and Haltiuk, Mykola and Aung, Thura and Almousa, Naser and Kargaran, Amir Hossein and Bawden, Rachel and Zheng, Qiaoyuan and Lango, Mateusz and Egressy, Beni and Velásquez, Fidel Rodríguez and Jongwiriyanurak, Natchapon and Do, Minh Ngoc and Gaido, Marco and Libon, Lena and Kuzmin, Dzmitry and Nyalang, Badal and Taroni, Antoine and Niculae, Andrei and Kani, Abdulaziz Nura and Zawar, Rushikesh and Šuppa, Marek and Savoldi, Beatrice and Simons, Andreas and Merchant, Rayyan and Levy, Ilai Yaron and Pinto, Francesco and Yang, Ziyi and Xavier, Yolanda and Frontull, Samuel and Habibi, Muhammad Ravi Shulthan and Enevoldsen, Kenneth and Majid, Harris Abdul and Padovani, Francesca and Graf, Tim and Bielakova, Tatiana and Djurabaeva, Sharifa and Ji, Shaoxiong and Ahmad, Raia Abu and Stepachev, Pavel and Qi, Jirui and Munot, Ayush Sunil and Pakniat, Alireza and Terryn, Ayla Rigouts and Lu, Yuxing and Paniv, Yurii and Fu, Xiyan and Adewumi, Tosin and Kumar, Sunisth and Thunus, Stéphane J.P.S. and Satish, Shree Harsha Bokkahalli and Bali, Shayan and Gupta, Prakhar and Diallo, Papa Abdou Karim Karou and Akrap, Matija and Culjak, Marko and Onderková, Kristýna and Attieh, Joseph and Tensay, Esrael Teferi and Fittschen, Elisabeth and Sagot, Benoît and Ni, Jingwei and Fan, Yu},
+  abstract={For scientific progress, we need benchmarks that test the limits of state-of-the-art models, and evaluation methods that inform us about failure cases. As models get stronger, standard benchmarks for machine translation are approaching saturation. Further, automatic translation metrics are unreliable, vulnerable to reward-hacking, and provide unactionable assessments. Even gold human evaluation is not problem-free, because it often lacks reproducibility, objectivity, and scalability. Overall, this prevents us from tracking objective progress in the field and identifying pathways for improvement. We introduce the Last Translation Benchmark, a collection of human-authored and peer-reviewed examples (texts, images, audio, videos) that break leading machine translation models. We also present a new evaluation approach: each example comes with handcrafted verification rules describing concrete failure cases on that example, therefore allowing reliable and actionable future evaluation. The Last Translation Benchmark is a live dataset that accepts ongoing contributions. The latest version is LTBv1, containing accepted contributions prior to September 1st 2026, with future releases planned as new data is continuously collected.},
   journal={arXiv preprint arXiv:2609.04173},
   year={2026},
   month={September},
@@ -200,19 +276,23 @@
   abbr={ICIC 2026},
   title={Aletheia: A Two-Stage Graph-Based Framework for Hallucination Detection in Abstractive Summarization},
   author={Cai, Tianshi and Li, Guanxu and Wang, Zimu and Zeng, Changyu and Han, Nijia and Huang, Ce and Chen†, Qi and Wang, Shuihua and Zhang, Haiyang and Wang, Wei},
-  journal={2026 International Conference on Intelligent Computing (ICIC 2026)},
+  abstract={Abstractive summarization models have made significant strides in advancing fluency, yet their tendency to generate hallucinations remains a substantial challenge for practical deployment. Effective detection of these hallucinations necessitates three key properties: computational efficiency, interpretability, and robustness under source-summary length asymmetry. However, existing solutions often fail to meet all three requirements. To address these limitations, we introduce Aletheia, a lightweight, two-stage graph-based framework designed for hallucination detection in abstractive summarization. It first employs a lightweight entity screening for unambiguous cases, and then leverages Abstract Meaning Representation (AMR) graphs and a novel summary-normalized concept coverage metric for summarization length discrepancies in complex instances. By deploying three typed detectors, our framework explicitly isolates entity, relation, and semantic confusion errors, providing precise localization and interpretable evidence for each identified hallucination. Empirical evaluations on FRANK highlight the efficacy of the framework, with a PR-AUC of 0.90 on the FRANK dataset.},
+  journal={2026 22nd International Conference on Intelligent Computing (ICIC 2026)},
   year={2026},
-  month={July}
+  month={July},
+  html={https://link.springer.com/chapter/10.1007/978-981-92-3426-4_47}
 }
 
 @article{ACL2026PsyDefConv,
   abbr={ACL 2026},
   title={You Never Know a Person, You Only Know Their Defenses: Detecting Levels of Psychological Defense Mechanisms in Supportive Conversations},
   author={Na*, Hongbin and Wang*, Zimu and Chen*, Zhaoming and Zhou, Peilin and Hua, Yining and Zhou, Grace Ziqi and Zhang, Haiyang and Shen, Tao and Wang, Wei and Torous, John and Ji, Shaoxiong and Chen, Ling},
-  abstract={Psychological defenses are strategies, often automatic, that people use to manage distress. Rigid or overuse of defenses is negatively linked to mental health and shapes what speakers disclose and how they accept or resist help. However, defenses are complex and difficult to reliably measure, particularly in clinical dialogues. We introduce PsyDefConv, a dialogue corpus with help seeker utterances labeled for defense level, and DMRS Co-Pilot, a four-stage pipeline that provides evidence-based pre-annotations. The corpus contains 200 dialogues and 4709 utterances, including 2336 help seeker turns, with labeling and Cohen's kappa 0.639. In a counterbalanced study, the co-pilot reduced average annotation time by 22.4%. In expert review, it averaged 4.62 for evidence, 4.44 for clinical plausibility, and 4.40 for insight on a seven-point scale. Benchmarks with strong language models in zero-shot and fine-tuning settings demonstrate clear headroom, with the best macro F1-score around 30% and a tendency to overpredict mature defenses. Corpus analyses confirm that mature defenses are most common and reveal emotion-specific deviations. We will release the corpus, annotations, code, and prompts to support research on defensive functioning in language.},
+  abstract={Psychological defenses are strategies, often automatic, that people use to manage distress. Rigid use or overuse of defenses is negatively linked to mental health and shapes what speakers disclose and how they accept or resist help. However, defenses are complex and difficult to reliably measure, particularly in clinical dialogues. We introduce PsyDefConv, a dialogue corpus with help seeker utterances labeled for defense level, and DMRS Co-Pilot, a four-stage pipeline that provides evidence-based pre-annotations. The corpus contains 200 dialogues and 4,709 utterances, including 2,336 help seeker turns, with double-blind labeling reaching Cohen’s kappa of 0.639. In a counterbalanced study, the co-pilot reduced average annotation time by 24.0%. In expert review, it averaged 4.62 for evidence supportiveness, 4.44 for clinical plausibility, and 4.40 for insight on a seven-point scale. Benchmarks with strong large language models (LLMs) in zero-shot and fine-tuning settings demonstrate clear headroom, with the best macro F1-score around 30% and a tendency to overpredict mature defenses. Corpus analyses confirm that mature defenses are most common and reveal emotion-specific deviations. We release the corpus, annotations, code, and prompts to support research on defensive functioning in language.},
   journal={Findings of the Association for Computational Linguistics: ACL 2026 (ACL 2026 Findings)},
   year={2026},
   month={July},
+  html={https://aclanthology.org/2026.findings-acl.708/},
+  pdf={https://aclanthology.org/2026.findings-acl.708.pdf},
   arxiv={2512.15601},
   selected={true}
 }
@@ -220,11 +300,13 @@
 @article{ACL2026PsychEthicsBench,
   abbr={ACL 2026},
   title={PsychEthicsBench: Evaluating Large Language Models Against Australian Mental Health Ethics},
-  author={Shen, Yaling and Fong, Stephanie and Jiang, Yiwen and Wang, Zimu and Tang, Feilong and Xu, Qingyang and Zhao, Xiangyu and Xu, Zhongxing and Liu, Jiahe and Hu, Jinpeng and Dwyer, Dominic and Ge, Zongyuan},
-  abstract={The increasing integration of large language models (LLMs) into mental health applications necessitates robust frameworks for evaluating professional safety alignment. Current evaluative approaches primarily rely on refusal-based safety signals, which offer limited insight into the nuanced behaviors required in clinical practice. In mental health, clinically inadequate refusals can be perceived as unempathetic and discourage help-seeking. To address this gap, we move beyond refusal-centric metrics and introduce PsychEthicsBench, the first principle-grounded benchmark based on Australian psychology and psychiatry guidelines, designed to evaluate LLMs' ethical knowledge and behavioral responses through multiple-choice and open-ended tasks with fine-grained ethicality annotations. Empirical results across 14 models reveal that refusal rates are poor indicators of ethical behavior, revealing a significant divergence between safety triggers and clinical appropriateness. Notably, we find that domain-specific fine-tuning can degrade ethical robustness, as several specialized models underperform their base backbones in ethical alignment. PsychEthicsBench provides a foundation for systematic, jurisdiction-aware evaluation of LLMs in mental health, encouraging more responsible development in this domain.},
+  author={Shen, Yaling and Fong, Stephanie and Jiang, Yiwen and Wang, Zimu and Tang, Feilong and Xu, Qingyang and Zhao, Xiangyu and Xu, Zhongxing and Liu, Jiahe and Hu†, Jinpeng and Dwyer, Dominic and Ge†, Zongyuan},
+  abstract={The increasing integration of large language models (LLMs) into mental health applications necessitates robust frameworks for evaluating professional safety alignment. Current evaluative approaches primarily rely on refusal-based safety signals, which offer limited insight into the nuanced behaviors required in clinical practice. In mental health, clinically inadequate refusals can be perceived as unempathetic and discourage help-seeking. To address this gap, we move beyond refusal-centric metrics and introduce PsychEthicsBench, the first principle-grounded benchmark based on Australian psychology and psychiatry guidelines, designed to evaluate LLMs’ ethical knowledge and behavioral responses through multiple-choice and open-ended tasks with fine-grained ethicality annotations. Empirical results across 14 models reveal that refusal rates are poor indicators of ethical behavior, revealing a significant divergence between safety triggers and clinical appropriateness. Notably, we find that domain-specific fine-tuning can degrade ethical robustness, as several specialized models underperform their base backbones in ethical alignment. PsychEthicsBench provides a foundation for systematic, jurisdiction-aware evaluation of LLMs in mental health, encouraging more responsible development in this domain.},
   journal={Findings of the Association for Computational Linguistics: ACL 2026 (ACL 2026 Findings)},
   year={2026},
   month={July},
+  html={https://aclanthology.org/2026.findings-acl.1971/},
+  pdf={https://aclanthology.org/2026.findings-acl.1971.pdf},
   arxiv={2601.03578},
   selected={true}
 }
@@ -237,6 +319,8 @@
   journal={The 25th Workshop on Biomedical Language Processing (BioNLP@ACL 2026)},
   year={2026},
   month={July},
+  html={https://aclanthology.org/2026.bionlp-1.75/},
+  pdf={https://aclanthology.org/2026.bionlp-1.75.pdf},
   arxiv={2605.24907}
 }
 
@@ -266,19 +350,24 @@
 @article{CSCWD2026Comformity,
   abbr={CSCWD 2026},
   title={Trust the Eye or the Crowd? Unveiling Conformity in Multimodal Large Language Models},
-  author={Luo*, Haoran and Chen*, Tong and Niu*, Yuhan and Liu, Hengxian and Sun, Yuanfei and Liu, Dexin and Yang, Zhihao and Miao, Yiyi and Zhou, Jingshi and Zhang, Haiyang and Su, Jionglong and Zhong, Huixin and Liu, Yanan and Wang, Wei and Wang†, Zimu and Chen†, Qi},
+  author={Luo*, Haoran and Niu*, Yuhan and Liu, Hengxian and Sun, Yuanfei and Yang, Zhihao and Chen*, Tong and Liu, Dexin and Miao, Yiyi and Zhou, Jingshi and Zhang, Haiyang and Su, Jionglong and Zhong, Huixin and Liu, Yanan and Wang, Wei and Wang†, Zimu and Chen†, Qi},
+  abstract={Multimodal large language models (MLLMs) have been propelled from passive information processors to active participants in complex social interactions. In such contexts, their ability to preserve independent judgment amidst potentially conflicting social cues becomes crucial. While recent studies have scrutinized conformity in text-only LLMs, the phenomenon remains largely unexplored in multimodal systems. To address this gap, we introduce MM-BenchForm, the first benchmark designed to systematically evaluate conformity behaviors in MLLMs. MM-BenchForm assesses model resilience across multiple cognitive capabilities, ranging from simple visual perception to advanced logic and mathematical reasoning, by leveraging established multimodal datasets such as CLEVR and PlotQA. We further propose five evaluation protocols that simulate different forms of social influence. Using this framework, we conduct extensive experiments on state-of-the-art MLLMs, including GPT-4o mini, DeepSeek-VL2, and GLM-4.5V. Our results reveal pronounced conformity tendencies: models frequently abandon correct visual evidence and instead hallucinate answers that align with induced erroneous opinions. We further analyze the impact of interaction history in shaping conformity and perform a preliminary attention-based analysis to examine how models distribute attention across visual inputs and socially provided information.},
   journal={2026 29th International Conference on Computer Supported Cooperative Work in Design (CSCWD 2026)},
   year={2026},
-  month={May}
+  month={May},
+  html={https://ieeexplore.ieee.org/document/11582657/}
 }
 
 @article{LREC2026MEUR,
   abbr={LREC 2026},
   title={MEUR: A Benchmark for Evaluating Vision-Language Models on Multimodal Event Understanding and Reasoning},
   author={Wang, Zimu and Wang, Yuqi and Chen, Tong and Zeng, Changyu and Na, Hongbin and Han, Nijia and Xing, Fuyu and Chen, Qi and Wang, Qiufeng and Nguyen, Anh and Wang, Shuihua and Chen, Ling and Su, Jionglong and Zhang†, Haiyang and Wang†, Wei},
+  abstract={Event understanding and reasoning play critical roles in thoroughly evaluating the capabilities of Vision-Language Models (VLMs); however, existing Visual Question Answering (VQA) datasets predominantly focus on entity-centric questions, while event- or action-related questions are limited in scale and suffer from significant shortcut issues. We introduce MEUR, the first Multimodal Event Understanding and Reasoning dataset consisting of 1,200 images and 4,217 questions, necessitating VLMs with a diverse range of multimodal understanding and reasoning capabilities to answer, ranging from basic event recognition to more complex tasks such as counting and comparison. To streamline the annotation process, we propose a novel semi-automated pipeline that combines advanced VLMs with human annotators, achieving high quality and efficiency. We conduct extensive experiments on state-of-the-art non-thinking and thinking VLMs to demonstrate their capabilities and limitations in multimodal event understanding and reasoning. Furthermore, we provide a detailed error analysis that points out promising directions for future research.},
   journal={The 15th Language Resources and Evaluation Conference (LREC 2026)},
   year={2026},
   month={May},
+  html={https://lrec.elra.info/lrec2026-main-134},
+  pdf={http://www.lrec-conf.org/proceedings/lrec2026/pdf/2026.lrec2026-1.134.pdf},
   selected={true}
 }
 
@@ -286,20 +375,25 @@
   abbr={LREC 2026},
   title={TCMPHal: A Large-scale Dataset for Hallucination Detection in Traditional Chinese Medicine Pharmacy},
   author={Han, Nijia and Wang, Zimu and Xie, Ziwen and Wang, Wei and Meng, Jia and Moraros, John and Wang†, Shuihua},
+  abstract={The rapid proliferation of large language models (LLMs) in medicine highlights their potential to revolutionize research in Traditional Chinese Medicine (TCM). While these models have shown great promise in assisting TCM practitioners by answering herb-related questions, generating syndrome-differentiation reports, and recommending classical formulas, a persistent challenge that arises is the issue of hallucination, where LLMs might produce content that appears plausible yet inaccurate. This issue has received limited attention within the context of TCM research, leaving a significant gap in understanding how hallucination manifests within the unique theoretical frameworks and diagnostic principles. Motivated by this phenomenon, we present TCMPHal, the first dataset specifically curated for hallucination detection in TCM pharmacy, comprising 10,000 high-quality question-answer pairs with hallucination annotations. Our experimental results across diverse LLMs, under standard, knowledge-based, and search engine-augmented conditions, demonstrate the capabilities and limitations of these models. A notable observation is that, for thinking LLMs, incorporating search engine results yields minimal improvement over their intrinsic reasoning abilities. We further conduct an in-depth error analysis, paving the way for future research directions in this domain. We release the TCMPHal dataset at https://github.com/hanninaa/TCMP.},
   journal={The 15th Language Resources and Evaluation Conference (LREC 2026)},
   year={2026},
   month={May},
+  html={https://lrec.elra.info/lrec2026-main-552},
+  pdf={http://www.lrec-conf.org/proceedings/lrec2026/pdf/2026.lrec2026-1.552.pdf},
   selected={true}
 }
 
 @article{EACL2026CHiRPE,
   abbr={EACL 2026},
   title={CHiRPE: A Step Towards Real-World Clinical NLP with Clinician-Oriented Model Explanations},
-  author={Fong, Stephanie and Wang, Zimu and Oliveira, Guilherme C and Zhao, Xiangyu and Jiang, Yiwen and Liu, Jiahe and Colton, Beau-Luke and Woods, Scott W. and Shenton, Martha and Nelson, Barnaby and Ge, Zongyuan and Dwyer, Dominic},
+  author={Fong, Stephanie and Wang, Zimu and Oliveira, Guilherme C and Zhao, Xiangyu and Jiang, Yiwen and Liu, Jiahe and Colton, Beau-Luke and Woods, Scott W. and Shenton, Martha and Nelson, Barnaby and Ge, Zongyuan and Dwyer†, Dominic},
   abstract={The medical adoption of NLP tools requires interpretability by end users, yet traditional explainable AI (XAI) methods are misaligned with clinical reasoning and lack clinician input. We introduce CHiRPE (Clinical High-Risk Prediction with Explainability), an NLP pipeline that takes transcribed semi-structured clinical interviews to: (i) predict psychosis risk; and (ii) generate novel SHAP explanation formats co-developed with clinicians. Trained on 944 semi-structured interview transcripts across 24 international clinics of the AMP-SCZ study, the CHiRPE pipeline integrates symptom-domain mapping, LLM summarisation, and BERT classification. CHiRPE achieved over 90% accuracy across three BERT variants and outperformed baseline models. Explanation formats were evaluated by 28 clinical experts who indicated a strong preference for our novel concept-guided explanations, especially hybrid graph-and-text summary formats. CHiRPE demonstrates that clinically-guided model development produces both accurate and interpretable results. Our next step is focused on real-world testing across our 24 international sites.},
   journal={The 19th Conference of the European Chapter of the Association for Computational Linguistics (EACL 2026)},
   year={2026},
   month={March},
+  html={https://aclanthology.org/2026.eacl-short.46/},
+  pdf={https://aclanthology.org/2026.eacl-short.46.pdf},
   arxiv={2601.18102},
   selected={true}
 }
@@ -311,7 +405,8 @@
   abstract={Working memory is central to language comprehension and reasoning, involving the dynamic balance between information processing and storage. This study investigates whether large language models exhibit human-like working memory behavior through the reading span task. Four LLMs were evaluated under varying conditions of task type, sentence complexity, and prompting strategy. Results reveal that across models, recognition tasks consistently outperformed recall tasks, mirroring human performance asymmetries due to differences in retrieval load. Garden-path sentences induced lower accuracy and increased processing costs, reflecting a human-like processing-storage trade-off under syntactic ambiguity. Moreover, Chain-of-Thought prompting selectively enhanced performance in high-demand contexts but marginally hindered performance in simpler conditions, while Chinese prompts generally reduced accuracy, likely due to cross-linguistic interference and data imbalance. These findings indicate that LLMs demonstrated emergent WM-like patterns shaped by processing difficulty, task structure, and prompt framing. While their WM capacity exceeds human limits, their sensitivity to varying conditions highlights parallels with human working memory mechanisms. The study contributes to understanding the cognitive implications of attention-based architectures and underscores the importance of prompt design in influencing their reasoning and memory capacities.},
   journal={The 15th International Conference on Brain Inspired Cognitive Systems (BICS 2025)},
   year={2025},
-  month={November}
+  month={November},
+  html={https://link.springer.com/chapter/10.1007/978-981-92-3586-5_7}
 }
 
 @article{ALTA2025DDM,
@@ -411,7 +506,7 @@
   selected={true}
 }
 
-@article{FinNLP2025FinAgent,
+@article{FinNLP2025FinDebate,
   abbr={WS 2025},
   title={FinDebate: Multi-Agent Collaborative Intelligence for Financial Analysis},
   author={Cai*, Tianshi and Li*, Guanxu and Han*, Nijia and Huang, Ce and Wang†, Zimu and Zeng, Changyu and Wang, Yuqi and Zhou, Jingshi and Zhang, Haiyang and Chen, Qi and Pan, Yushan and Wang, Shuihua and Wang†, Wei},
